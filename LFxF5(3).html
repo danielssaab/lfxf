@@ -1,0 +1,3095 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>Leonardo de Freitas e Fabiano</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script>
+		function transpose_up(step, cifra) {
+			while (step >= 12) step -= 12;
+			while (step <= -12) step += 12;
+			if (step < 0) step += 12;
+			let i, j;
+			let cifraUp = [];
+			cifra = cifra.split("");
+			while (step > 0) {
+				for (i = 0, j = 0; i < cifra.length; i++, j++) {
+					switch (cifra[i]) {
+						case 'A':
+							if (cifra[i + 1] != '♭' && cifra[i + 1] != '♯') {
+								cifraUp[j] = 'A';
+								cifraUp[j + 1] = '♯';
+								j++;
+								break;
+							} else {
+								if (cifra[i + 1] == '♯') {
+									cifraUp[j] = 'B';
+									i++;
+									break;
+								}
+								if (cifra[i + 1] == '♭') {
+									cifraUp[j] = 'A';
+									i++;
+									break;
+								}
+							}
+							case 'B':
+								if (cifra[i + 1] != '♭' && cifra[i + 1] != '♯') {
+									cifraUp[j] = 'C';
+									break;
+								} else {
+									if (cifra[i + 1] == '♯') {
+										cifraUp[j] = 'C';
+										i++;
+										break;
+									}
+									if (cifra[i + 1] == '♭') {
+										cifraUp[j] = 'B';
+										i++;
+										break;
+									}
+								}
+								case 'C':
+									if (cifra[i + 1] != '♭' && cifra[i + 1] != '♯') {
+										cifraUp[j] = 'C';
+										cifraUp[j + 1] = '♯';
+										j++;
+										break;
+									} else {
+										if (cifra[i + 1] == '♯') {
+											cifraUp[j] = 'D';
+											i++;
+											break;
+										}
+										if (cifra[i + 1] == '♭') {
+											cifraUp[j] = 'C';
+											i++;
+											break;
+										}
+									}
+									case 'D':
+										if (cifra[i + 1] != '♭' && cifra[i + 1] != '♯') {
+											cifraUp[j] = 'D';
+											cifraUp[j + 1] = '♯';
+											j++;
+											break;
+										} else {
+											if (cifra[i + 1] == '♯') {
+												cifraUp[j] = 'E';
+												i++;
+												break;
+											}
+											if (cifra[i + 1] == '♭') {
+												cifraUp[j] = 'D';
+												i++;
+												break;
+											}
+										}
+										case 'E':
+											if (cifra[i + 1] != '♭' && cifra[i + 1] != '♯') {
+												cifraUp[j] = 'F';
+												break;
+											} else {
+												if (cifra[i + 1] == '♯') {
+													cifraUp[j] = 'F';
+													break;
+												}
+												if (cifra[i + 1] == '♭') {
+													cifraUp[j] = 'E';
+													i++;
+													break;
+												}
+											}
+											case 'F':
+												if (cifra[i + 1] != '♭' && cifra[i + 1] != '♯') {
+													cifraUp[j] = 'F';
+													cifraUp[j + 1] = '♯';
+													j++;
+													break;
+												} else {
+													if (cifra[i + 1] == '♯') {
+														cifraUp[j] = 'G';
+														i++;
+														break;
+													}
+													if (cifra[i + 1] == '♭') {
+														cifraUp[j] = 'F';
+														break;
+													}
+												}
+												case 'G':
+													if (cifra[i + 1] != '♭' && cifra[i + 1] != '♯') {
+														cifraUp[j] = 'G';
+														cifraUp[j + 1] = '♯';
+														j++;
+														break;
+													} else {
+														if (cifra[i + 1] == '♯') {
+															cifraUp[j] = 'A';
+															i++;
+															break;
+														}
+														if (cifra[i + 1] == '♭') {
+															cifraUp[j] = 'G';
+															i++;
+															break;
+														}
+													}
+													default:
+														cifraUp[j] = cifra[i];
+														break;
+					}
+				}
+				cifra = cifraUp;
+				cifraUp = [];
+				step--;
+			}
+			cifra = cifra.join('');
+			return cifra;
+		}
+	</script>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+		body {
+			background-color: rgb(228, 226, 226);
+			font-family: 'source code pro', Courier, monospace;
+			font-weight: 500;
+			font-size: 15px;
+			width: auto;
+			margin: 0px;
+		}
+
+		header {
+			text-align: center;
+			padding: 10px 0px 0px 0px;
+			margin-bottom: 0px;
+			background-image: linear-gradient(to bottom, whitesmoke, rgb(148, 148, 148));
+			text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.315);
+			width: 100%;
+			position: fixed;
+			/*	float:top;*/
+			top: -10px;
+		}
+
+		main {
+			max-width: 1200px;
+			min-width: 200px;
+			margin-left: -1.1em;
+			margin-top: 4em;
+		}
+
+
+		h1,h2 {
+			font-size: 2em;
+			font-style: normal;
+			font-weight: 900;
+			padding-left: 15px;
+			padding-right: 15px;
+			margin: 0px;
+			display: inline-block;
+		}
+
+		h2 {
+			display: inline;
+		}
+
+		ol {
+			margin-left: -1em;
+			font-size: 1em;
+			text-decoration: none;
+			font-weight: 700;
+			text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.315);
+			/*columns: 2;*/
+			top: 3em;
+
+			list-style-position: inside;
+		}
+
+		li {
+			margin: 2px 0px 2px 0px;
+			float: left;
+		}
+
+		li:hover {
+			background-color: rgba(103, 183, 186, 0.541);
+			border-radius: 5px;
+		}
+
+		a {
+			text-decoration: none;
+			color: initial;
+		}
+
+		.container-transp {
+			margin: 0;
+			float: right;
+			display: flex;
+			flex-direction: row-reverse;
+		}
+
+		.transp {
+			width: 1.7em;
+			height: 1.7em;
+			border-radius: 35px;
+			font-weight: 600;
+			margin: 0 0.2em 0 0;
+			background-color: lightgray;
+		}
+
+		.abreButton {
+			width: 3em;
+			height: 1.5em;
+			border-radius: 25px;
+			font-weight: 600;
+			margin: 4px;
+			float: right;
+			background-color: lightgray;
+
+		}
+
+		.abreLi {
+			display: flex;
+			flex-direction: row-reverse;
+		}
+
+		.preCifra {
+			tab-size: 3;
+			text-shadow: none;
+			padding: 0em 0.3em;
+			font-size: 1.3em;
+			font-family: 'source code pro', 'Consolas', Courier, monospace;
+			font-weight: normal;
+			max-width: 1000px;
+			min-width: max-content;
+			margin: 0.3em auto;
+			border-style: groove;
+			border-color: rgba(0, 0, 0, 0.57);
+			box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.566);
+			border-radius: 12px;
+			background-color: whitesmoke;
+			letter-spacing: -1.5px;
+			line-height:1.3em;
+			background:linear-gradient(180deg,#eee 0,#eee 1.3em,#e6e6e6 0);
+			background-size:2.6em 2.6em;
+		}
+
+		a♯jm {
+			color: red;
+		}
+		
+		a:visited { 
+			text-decoration: none;
+			color: initial;
+		}
+
+		audio {
+			width: 70%;
+			height: 1em;
+			margin: 0;
+		}
+
+		audio::-webkit-media-controls-enclosure {
+			background-color: transparent;
+		}
+
+		hr {
+			border-style: groove;
+			box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.671);
+			height: 1px;
+			width: auto;
+			margin-top: 0.3em;
+			margin-bottom: 0px;
+			border-bottom: 0px;
+		}
+
+		.mus {
+			display: none;
+		}
+
+		#plus {
+			width: 3em;
+			height: 3em;
+			top: 15px;
+			right: 15px;
+			border-radius: 35px;
+		}
+
+		#vai {
+			height: 20px;
+			padding-top: 10px;
+			position: fixed;
+			width: 100%;
+			bottom: 0px;
+			text-align: center;
+			background-color: rgb(228, 226, 226);
+		}
+
+		#rangeVai {
+			position: static;
+			display: inline;
+			width: 90%;
+		}
+
+		#rangeNome {
+			position: fixed;
+			text-align: center;
+			display: block;
+			width: 100%;
+			bottom: 20px;
+		}
+
+
+		.coment {
+			font-weight: 400;
+			font-style: italic;
+			font-size: 0.65em;
+		}
+	</style>
+</head>
+
+<body>
+
+	<header>
+		<h1>Repertório LfxF</h1>
+		<input id="plus" type="button" onclick="abreTodos(this)" value="+"></input>
+		<hr>
+	</header>
+
+	<main>
+		<ol>
+
+			<div id='hide'>
+				<li><a target="_blank" href="#"></a></li><span class="abreLi"><input type="button" value="+" onclick="abreLi(this)" class="abreButton"></span>
+				<div class=mus>
+					<audio controls preload="metadata">
+						<source src="" type="audio/mpeg">
+					</audio>
+					<div class="container-transp">
+						<input type="button" class="transp" onclick="cifraUp(this)" value=+></input>
+						<input type="button" class="transp" onclick="cifraReset(this)" value=0></input>
+						<input type="button" class="transp" onclick="cifraDown(this)" value=-></input>
+					</div>
+					<pre class="preCifra">
+      </pre>
+				</div>
+				<hr>
+			</div>
+
+			<li><a target='_blank' href="#">Abertura</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Abertura.mpeg' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>C♯m[c♯ d♯ f g |g♯][C♯ pedal]
+lick F♯Δ
+[A7M G♯m F♯m9|G7M D7 C7M|
+|Gm Fm F/A|A♯sus4|Csus4|C♯m]</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/paradigmas.png'>Paradigmas C♯</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/01 - Jorge & Mateus - Paradigmas.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[C♯ |G♯ |D♯m|F♯]
+b	[D♯m|A♯m|C♯ |G♯]
+	>convenções: part</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/arranhão.png'>Arranhão</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/49 - Henrique & Juliano - Arranhão (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	|Dm|A♯|C|A7| (mute)
+prf	|A♯|C|Dm| e F|
+R	|A♯|C|Am|Dm|</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/propaganda.jpeg'>Propaganda D</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/03 - Jorge & Mateus - Propaganda (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i/	[D]
+a	[D|A|Bm|G]
+b	[Em|G|D|A]
+R=a	|s=a,a,b,r,fim</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/briga feia.jpeg'>Briga feia G♯m</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/05 - Henrique & Juliano - Briga Feia (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i/	[G♯m|B|F♯|C♯/F]
+a	[C♯m|E|B|F♯| C♯m|E.]
+R	[: B|%|F♯| %|
+	|C♯m|E|B|F♯:]
+s	[C♯m|E|B|F♯ ]</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/vou falar que nao quero.png'>Vou falar que não quero</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Vitor Fernandes - Vou falar que não quero.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>X	|Dm|A♯|F|C|</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/voce beberia ou nao beberia.png'>Vc beberia ou não beberia</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/50 - Zé Neto & Cristiano - Você Beberia Ou Não Beberia_.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>X	|Cm|E♭|B♭|F|</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Vai la em casa hoje</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/George Henrique & Rodrigo - Vai Lá Em Casa Hoje.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>x	[C♯m|G♯m|B|F♯]</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/batom de cereja.png'>Batom de cereja Bm</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/27 - Israel & Rodolffo - Batom de Cereja (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a/i	[Bm|D|A (F♯m)|E]
+b	[Bm D|A E  |
+	|Bm D|A E]</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/ela e ela.png'>Ela e ela</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/53 - Zé Neto & Cristiano - Ela e Ela.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>I	[D|Am|Dm|Am|Em]
+A=R	[C|D|Bm|Em]
+P	[D|Am]
+Prf	[Em|Bm|C|D]</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/ultimo beijo.png'>Último beijo Dm</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/15 - Bruno & Marrone - Último Beijo.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>x	[Dm|B♭|F|Am]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Esqueça-me se for capaz</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Marília Mendonça - Esqueça-Me Se For Capaz.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[Dm|G|Em|Am]</pre>
+        </div>
+        <hr><li><a target='_blank' href='https://www.cifraclub.com.br/hugo-guilherme/mal-feito-part-marilia-mendonca/'>Mal Feito</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Hugo & Guilherme - Mal Feito (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[D♯|G♯]
+a	[G♯|% A♯|Cm|% Gm]
+a'	[G♯|A♯|Cm|A♯(!] (....|,;¨¨¨|,)
+r	[Fm|G♯|Cm|A♯]
+break fim
+	[Fm|G♯|Cm| B♭||
+	|eb d c b♭ |g b♭ g eb |</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Erro Planejado</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Luan Santana - ERRO PLANEJADO (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>I	[Em|Am|D|Em]
+a	[C|G|D|%]
+R	[Dm|Am|C|G]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Molhando o Volante</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/MOLHANDO O VOLANTE - JORGE E MATEUS.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>I	[B♭ lick]
+a	[E♭| %| Gm| F] (E♭)
+R	[ B♭| F| Cm| E♭ ] (solo)</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Imagina a sentada</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Matheus & Kauan - Imagina A Sentada.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>I	[Am G/B |C ]
+a	[G | Am |C | G|
+	|Am G |C Dm| Am| G]
+Pr	[C G|Am G]
+R	[Dm| Am| G| Dm]
+Intro.conv > A> pr > R, R' (g g♯ a a♯.), > Intro.fim
+f	[Am G Dm! .| C]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Todo seu</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Jorge & Mateus - Todo Seu (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[G|%C!|G!]
+a	[C%|D%|G b~|D/F♯ a|
+	|Em%!|C%|D!%|G%|
+	|A!%|C|D!]
+r	[C%|C!D!|Em%|D%!]
+	|C|D!|G!]
+f	[C%|C!D!|Em%C!|G!]</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/termina.jpg'>Termina Comigo Antes</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Gusttavo Lima - Termina Comigo Antes.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[Am|F|C|G] C| F G]
+r	[C|F|C|G| 
+	[Am|F|C|G]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Abalo Emocional</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Luan Santana - ABALO EMOCIONAL (Ao Vivo) (1).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>I	[D♯m]
+a	[: D♯m| A♯m| G♯m| B C♯:]
+	| D♯m| A♯m | B!]
+R	[B| C♯| D♯m|% ] 
+	(B! |C♯! |B |D♯m C♯m)</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/vamo tomar uma.png'>Vamo Tomar Uma</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/54 - Zé Neto & Cristiano - Vamo Tomar Uma.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>I	(c♯... ag♯f♯ g♯ f♯f♯:)
+a	[F♯m|D|A|E]
+pr	[D|E|F♯m|D|Bm..]
+f=i	d c♯b f♯f♯f♯</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/balanço.jpg'>Balanço da Rede</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Matheus Fernandes - Balanço da Rede.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a 	[F♯m|E|B/D♯|D]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Tem cabaré essa noite</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Brasil Hits - TEM CABARÉ ESSA NOITE - NATT4N.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>I	[F♯m|E|Bm|D]
+a	[F♯m|%|D|E]
+b	[D|E|A E/G♯|D/F♯ E|
+	|D|E|F♯     |%]
+R	[D|E|F♯|%]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Bloqueado</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Gusttavo Lima - Bloqueado (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[Bm|A]
+a	[Bm|G|D|F♯m] G%|A]
+r	[Bm|A|Em|% D/F♯|G|A] Bm]
+s	[Bm|A%||Bm A|G Em]lick Bm</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Fala mal de Mim</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Gusttavo Lima - Fala Mal de Mim (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>x	[C%|G7%]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Água nos zói</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/11 - Clayton & Romário - Água Nos Zói (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>I	[D |A |Bm |G ]
+a	[D%| E% |G% | D% ] 
+	|E%| G|G A| Bm| A|  G!]
+R	[D |A |Bm|G!|D|E|G|A!'|D|A!]
+I'	[D| A| Bm| G!| D |E | G!]
+a,r,i.</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/vagabundochora.jpg'>Vagabundo Chora</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Guilherme & Benuto - Vagabundo Chora (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[G♯m|%|%|
+	|G♯m%|E%|F♯%|G♯m%]
+a	[E%|F♯%|D♯m%|G♯m%|F♯!%]
+r	[B%|F♯%|G♯m%|E%:]
+	[E|F♯|G♯m|F♯]
+s	[B%|F♯%|G♯m%|E]
+	a,r,r!
+f	[E|F♯|G♯m|%!|G♯m]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">A maior saudade</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>I	[C♯m | E]
+A	[ E | B | D♯m |G♯m]
+Pr	[E | F♯| D♯m |G♯m]
+R	[C♯m | E | B | F♯]
+	[C♯m | E | B| %]
+	Solo = intro</pre>
+        </div>
+<hr>       
+        
+			<li><a target="_blank" href="assuntodelicado.jpg">Assunto delicado</a></li><span class="abreLi"></span>
+			<div class=mus>
+				<audio controls preload="metadata">
+					<source src="../Guilherme & Benuto - Assunto Delicado (Ao Vivo).mp3" type="audio/mpeg">
+				</audio>
+				<div class="container-transp"></div>
+				<pre class="preCifra">
+X	[Em|D|Am|C]
+</pre>
+</div><hr>
+
+			<li><a target="_blank" href="bombonzinho.jpg">Bombonzinho</a></li><span class="abreLi"></span>
+			<div class=mus>
+				<audio controls preload="metadata">
+					<source src="../Israel & Rodolffo - Bombonzinho (Ao Vivo).mp3" type="audio/mpeg">
+				</audio>
+				<div class="container-transp"></div>
+				<pre class="preCifra">i	[B♭m | D♭| Fm| E♭]
+a	[B♭m | D♭| A♭ | E♭|
+	|B♭m | D♭| Fm| E♭]
+r	[E♭m| G♭| D♭| A♭]
+s	[B♭m | D♭| A♭ | E♭|
+	|B♭m | D♭| Fm| E♭]
+f	(E♭m)
+	[E♭m| G♭| D♭ | A♭|
+	|E♭m| G♭| D♭ | A♭³| E♭m]
+</pre>
+</div><hr>
+
+<li><a target="_blank" href="">Erro Gostoso</a></li><span class="abreLi"></span>
+<div class=mus>
+	<audio controls preload="metadata">
+		<source src="" type="audio/mpeg">
+	</audio>
+	<div class="container-transp"></div>
+	<pre class="preCifra">i	[E b]
+a	[E|%!|C♯m|%|A|%|E|
+	|F♯m E/G♯|A a♯|%]
+b	[E|E f|C♯m|%!|
+	|A a♯|F♯m|B|%!] E A]
+</pre>
+</div><hr>
+
+
+<li><a target="_blank" href="">Saudade da minha vida</a></li><span class="abreLi"></span>
+<div class=mus>
+	<audio controls preload="metadata">
+		<source src="" type="audio/mpeg">
+	</audio>
+	<div class="container-transp"></div>
+	<pre class="preCifra">x	[Cm|Fm|A♭|Gm]
+</pre>
+</div><hr>
+
+<li><a target="_blank" href="../partituras/brilhosumiu.png">Seu Brilho Sumiu</a></li><span class="abreLi"></span>
+<div class=mus>
+	<audio controls preload="metadata">
+		<source src="" type="audio/mpeg">
+	</audio>
+	<div class="container-transp"></div>
+	<pre class="preCifra">x	[B|G♯m|D♯m|C♯]
+</pre>
+</div>
+
+
+        <hr><li><a target='_blank' href='../partituras/duas tres.png'>Duas Tres</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Guilherme & Benuto - Duas Três.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[(Fm)|
+	|Cm|B♭|Fm|A♭|
+a	[Cm|A♭|E♭|B♭]
+	[Fm|A♭|Cm|B♭] A♭|%]
+r	[Fm%|A♭%|Cm%|B♭%]
+	i,a',r,f(...B♭!|Fm%)</pre>
+        </div>
+
+
+        <hr><li><a target='_blank' href="#">Por um minuto</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	|..bcfg[G!|%]
+a	[ G| Bm| C|%]
+a'	[G|%|D/G |  C/G]
+b	[C|Am | D| %]
+r	[G |Bm| Em| Bm| Am|%|D|%|
+	¹|Am|Am7M|Am7|Am6| C| D|G]
+	²|C|Bm|Em|%|C|D|G|%]
+	a,b,r,
+r2	[A |C♯m| F♯m| C♯m| Bm|%|E|%|
+	¹|Bm|Bm7M|Bm7|Bm6| D| E|A]
+	²|D|C♯m|F♯m|%|D|E|A|%]
+v	[ A| C♯m| D|%]</pre></div>
+
+<hr><li><a target='_blank' href="#">Marília (Te amo demais/Infiel)</a></li><span class='abreLi'></span>
+<div class=mus>
+
+  <audio controls preload='metadata'>
+	<source src='' type='audio/mpeg'>
+			</audio>
+			<div class='container-transp'></div>
+
+			<pre class='preCifra'>Te amo demais
+i	[ (G♯)! | C♯! | D♯m | F♯ ]
+a	[ C♯ | G♯ | D♯m | A♯m ]
+pr	[ G♯ | D♯m | F♯ | C♯ ] F♯|% G♯!]
+r	[ C♯ | G♯ | D♯m | F♯ ]
+	i,a,pr,r,r' 
+	(^F♯ c♯ c g♯ c♯ c a♯ g♯! g♯!)
+f	[C♯! F♯!| C♯]
+
+Infiel
+i	[Am! G/B!| A/C♯! | C! D!| D/E!|
+	|Am G/B| C/E B7♭9|
+	|Em!|%| D!| %| Am! |%]
+r	[Am%| Em%| D%| A| A!|
+	|Am%| Em%| D!| ab A/C♯]
+a	[Em|C|D¹|Em]
+pr	[Am%| Em%| G%| D%] Am%| C%]
+	r (Am! G!)
+s1	[F7M| Dm| Am| G] G!]
+
+Amante não tem lar
+i2	[C%|G%]
+a	[Am|F|C|G]
+pr	[Dm|F|C|G] Dm%| F |F! G!]
+	r
+s2	[C% | G%| Dm%| F%]
+	pr,r,
+s3	(F lídio! G!)
+	r
+f	[C!%]</pre></div>
+
+<hr><li><a target='_blank' href="#">Xotes</a></li><span class='abreLi'></span>
+<div class=mus>
+
+  <audio controls preload='metadata'>
+	<source src='' type='audio/mpeg'>
+			</audio>
+			<div class='container-transp'></div>
+
+<pre class='preCifra'>Esperando na janela
+ia	[ B% | E% ] A B | E] (Fº)
+r	[F♯m| B | E| C♯m|
+	|F♯m B| E AB |E Fº]
+
+Morango do nordeste
+is	[C | G| Am| G] gag cbag
+a	[C | G| Dm| Am G]
+a'	[C | G]
+
+La Belle de Jour
+	[ C | Em | Am | Em| F| G]
+
+Anunciação
+a	[Am| G ]
+b	[G| Em | F C]</pre></div>
+
+
+
+
+
+        
+        
+        <hr><li><a target='_blank' href="#">Haja Colírio</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Guilherme e Benuto feat @Hugo e Guilherme  - Haja Colírio.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>I	[C♯m | E | B | F♯]
+A	[ E% | B% ]
+B	[C♯m | E | B | F♯ |E |F♯]
+R	[C♯m | E | B | F♯]</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/nem namorado.jpg'>Nem namorado nem ficante</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Israel & Rodolffo, @Maiara e Maraisa - Nem Namorado e Nem Ficante (Ao Vivo Em Brasília).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>A	[Bm | A | Em| G]
+B	[Bm | F♯m | G|%] (G)
+R = A</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Ana Castela</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>Boiadera
+
+a	[ Fm| C♯| G♯ | D♯]
+b	[ A♯ | C♯| Fm| D♯] [C♯|D♯]
+
+Pipoco
+a	[Cm%|A♭|B♭] [A♭|B♭]
+b	[Cm| E♭| A♭| B♭]</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/ficha limpa.png'>Ficha limpa G♯</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/11 - Gusttavo Lima - Ficha Limpa.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[C♯|D♯]
+a	[G♯|C♯|G♯|C♯]
+b	[A♯m|C♯|Fm|D♯|C♯|C♯m]
+r	[C♯|D♯|Fm|C♯|A♯m|C♯m]
+s	[Fm|C♯|D♯|f g g♯ c].b
+	b,r,
+f	[G♯|A♯m|C♯|a♯gfd♯ca♯cd♯|G♯]</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/ta cedo ou ja pode.png'>Tá cedo ou já pode B</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Tá Cedo ou Já Pode_ - Leonardo de Freitas e Fabiano (320  kbps) (www.youtube2mp3.biz).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[B|F♯|C♯m|E]
+a	[B|F♯|E|%]F♯]
+r	[B|F♯|C♯m|E ]s
+	a,r',s'
+	:conv s,r's' e f</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Não me sufoca</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Nao me sufoca.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>I	z[ C ⁴F! | z. ]
+a	[ C% | G% | Am% | F !% ]
+b	[ Dm% | Am% | B♭ | F | G!! ]
+R	[ C !% | G% | Am% | F | G ]</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/faz amor comigo so hoje.png'>Faz amor comigo só hoje E</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/21 - Israel & Rodolffo - Faz Amor Comigo Só Hoje (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[E|B|C♯m|A]
+b	[C♯m|A|E|B]</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/horizonte azul.png'>Horizonte azul/programa de fds</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Leonardo de Freitas e Fabiano - Horizonte Azul- Programa de Fim de Semana.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>horizonte
+i	[B♭|F|E♭|B♭]m
+a	[E♭|%|B♭|F|E♭|B♭|%]
+r	[F|E♭|B♭|%] (contras)
+f	[G]
+
+programa fds
+i	[C|G|Am|Em|F|G|C|G% g a b ]
+	[C|F|C%%|G|
+	|Am|Em|F|C|D%|G]
+a	[Am|Em|F|C|
+	|Am|Em|F|G%] (contra G)
+r	[C|G|Am|Em|F|D|G|%| (contra G)
+	|C|G|Am|Em|F|G]
+vmp	[C|Am|F|G]</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/deus me livre.png'>Deus me livre / morro de saudade</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Leonardo De Freitas & Fabiano - Deus Me Livre - Morro De Saudade.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>deus me livre
+i	[E|B|C♯m|G♯m|A F♯m|B|
+	|E|B|C♯m|G♯m|A B|E|%]
+r	[B|C♯m|A B|E|
+	|B|C♯m|A|B]
+pt	[C|D|E|FG]
+
+morro de saudade
+a	[C|G|F|G] (contras)
+	[Dm|Am|G|%|
+	|Dm|Am|B♭|G] (contra 1e4 refrão)
+r	[C|% |Dm|G|
+	|C|Am|Dm|G] (contras no C|%|Dm)
+f	[C|Am|Dm|G|C]</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/na hora de amar.png'>Na hora de amar / te amar foi ilusão</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Leonardo De Freitas e Fabiano - Na Hora De Amar - Te Amar Foi Ilusão.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>na hora de amar
+i	[Dm Gm|C]
+r'	[C%|G%|Am|F|Dm F|G|Am%]
+a	[Dm F|C B♭|Dm F|C|
+	[Dm F|C G |B♭ |A7]
+r	[D%|A%|Bm|G|Em G|A]
+
+te amar foi ilusão
+i	[C|G|Am|%|Dm|F G|C|
+	|F|%|C|%|G|
+	|F G|C .fed|G]
+r	[C%|G%|F%|C|G] (contras no G)</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/Pout Sertanejo Anos 90.png'>Pout Sert. Anos 90</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Leonardo De Freitas & Fabiano - Dormi na Praça _ Ela É Demais _ Cara de Pau _ Convite de Casamento _ Da Boca pra Fora (Acústico).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>Dormi
+a	[D%|A%|G%|D|A] (B!)
+
+ela é demais
+a	[E|C♯m|A|B] C!%]
+
+cara de pau
+a	[G!%|D%|C%|G|D|
+	|G|Dm G|C|%|D Em|Am D|G|%]
+
+convite
+x	[C%|F%|Dm|G|C|G|
+	|C|C7|F|.Fm!|C%|G%|
+	|F|G|C|Am|Dm|G!%] A!]
+
+Boca pra fora
+a	[D|A/C♯|Bm|F♯m|G¹|Em|A|%]²A]
+a'	[D|F♯m|G|A] Gm|%|D]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Leilão / Vou doar meu coração</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Leonardo De Freitas & Fabiano - Leilão _ Vou Doar Meu Coração (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>leilão
+
+i	[E%|B%|A%|E%|
+	|B%|G♯m C♯m|A%|B%]
+a	[F♯m|A|E|%]
+r	[B%|A%|E%|B%] B|A|E] 
+	(DE|A)
+
+vou doar meu coração
+
+i	[A%|E%|D%|A%] (A7)
+a	[D%|A%|D%|E|E f♯ g g♯]
+r	[E|F♯m|D|A]
+	(D E|A dc♯ba|A)</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Logo eu / A rosa e o Beija Flor</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Leonardo De Freitas & Fabiano - Logo Eu _ A Rosa e o Beija-Flor (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>logo eu
+
+i	[F♯m|A|E|%]
+a	[E|A|C♯m B|A]
+r	[F♯m|A|E|B]
+	(b a g♯ e f♯)
+
+a rosa e o beija flor
+
+i	[F♯m|D|A|E]
+a	[F♯m|D|%|F♯m] (E)
+i	[F♯m|D|A|E]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">É o amor G/pense em mim G/ timidez C</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/SONG012-M4QT_01-02.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>é o amor
+i 	[C|G|D|G|D|G]
+a 	[G|D|Am|D|%|G Am D]
+b 	[G|%|G7|C FC|% C/E|
+	|G/B|Em|Am D|G G7|
+	|C C/E|G/B Em|Am D|G]
+r 	[C FC |G|Em|D|Am|D|G]
+
+pense em mim
+
+i 	[G|Em|C|D]
+a 	[G|Em|G|Em]
+r	[C|D |G|Em]
+b 	[G|Em|C|G|Em|
+	|C|D |G|Em|C|D|G]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Evidências C</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/SONG012-M4QT_01-02.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/pp guaranias.png'>Por pourri guaranias</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Pout_guaranias.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>boate azul 	Em
+i	[Em|A |D | G|
+	|Em|F♯|Bm|B7]
+a	[Bm|A|G|F♯]
+	[Em|Bm |F♯|Bm](G F♯)
+r	[F♯|E|B|%]
+
+Telefone mudo 	G
+a	[C|G|D|G]
+b	[D|%|C|G|%|D|C|G]
+
+Fio de Cabelo 	E
+i	[B|E|B|E]
+a	[E B|E|%|A|
+	|% B|E C♯m|F♯m B|E]
+r	[B|E|B|A B|E]
+
+Ainda Ontem	C
+i	[C Am|Dm|G|C|
+	|C|F |G |C]
+a	[C Am|Dm|G|C]
+r	[C |%|G |%]
+f	.(F|C|G|C g|C]
+
+Saudades de minha terra	D
+i	[A|D|A.. |D]
+a	[D|A|%|GA|D]
+b	[G|E A|% |D|
+	|G|A|%|D]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Maus bocados C</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/39 - Cristiano Araújo - Maus Bocados.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[C|F|Dm|G]
+pr	[F|G|F/A F|G]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Jorge e Mateus (pot pourri)</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>Querendo te amar
+
+a	[A|B|D|Dm]
+	|F♯m|B|D|E]
+r	[A|E|F♯m|D]
+	|F♯m|B|D|Bm D|E|A]
+
+Seu astral D
+
+a	[G|D|G|Bm]
+p	[G|Bm|G|A]
+r	[G|Bm|A|%]
+
+Amo noite e dia C♯m
+
+x	[C♯m|A||E|B]
+
+você não sabe oq é amor
+
+i	[F♯|C♯|B|%]
+p	[D♯m|C♯|B]
+r	[F♯|C♯|D♯m|B]-p</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Sorocaba Pout</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>E daí D
+
+a	[D |Bm|G|A]
+p	[Em|A]
+
+É tenso D
+
+a	[D |A|Em|G]
+p	[Em|Bm|A|G|A]
+r	[D |A|Bm|G]
+
+Da cor do pecado A
+
+x	[A|E|F♯m|D]
+
+Pode chorar C
+
+a	[C G|Am F| C G|G]
+b	[F|Am|F|G]
+r	[C|G|Am|F|Dm|Am|G]
+
+Chora me liga C
+
+a	[C|G|Am|F]
+pr	[Dm|F|C G|Am|
+	|Dm|F|Dm F|G]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Chove, chove + flor + só falta você</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>chove chove
+i	[B|E F♯|B G♯m|E F♯] B F♯]
+a 	[B F♯|C♯m E]
+b	[G♯m|C♯m|G♯m|E F♯]
+r	[B|E F♯|B G♯m|E F♯] B F♯]
+f	[B F♯|E]
+
+flor
+i	[G♯m|E|B|F♯]
+r	[B|F♯|C♯m|E F♯]
+
+só falta você 
+a	[B|F♯|G♯m|E]
+pr	[C♯m |E|F♯|%]
+	a
+f	[B|F♯|C♯m|E]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Improvisos</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>Se eu pedir cê volta
+
+a	[G|D|G|D|G|Bm|G|A|
+	|D|Bm|G Em|A]
+r	[D|Bm|E G|A]
+
+
+Coração está em pedaços C
+
+a	[C|Dm|G|C]
+	|D|G|D|G F|C]
+r	[G|FG|C|G|F|C|
+	|G|FG|C|G|F|G|C]
+
+fica comigo
+i	[D%|% Bm|A|G|D| % Bm|A]
+a	[F♯|Bm G|D A|G]
+r	[D|A|G|D]
+	[D|A|F♯|Bm .F♯m|G|D|A|D]
+
+As mina pira
+
+I	[Em! D C!|% D]
+A	[Em|C|G|D]
+B	[C|D|G D/F♯| Em D]
+	| C%|D%||Am C| D]</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/coracao cachorro.png'>Late Coração Cachorro</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/52 - Avine Vinny - Coração Cachorro.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[ C| %| Am| %| F| Fm ]
+a	[:Am  | G |F:]
+ref	[:C|% g|Am|% g|F|% g:]</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/esquema preferido.png'>Esquema preferido Dm</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/06 - Os Barões Da Pisadinha - Esquema Preferido (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>x	[Dm|B♭|F|C] (B♭ C)</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/role.png'>Rolê</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/44 - Tarcísio do Acordeon - Rolê.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[Gm|B♭|Dm|C]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Malvada</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Zé Felipe - Malvada.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[riff Fm](Gm A♭)|gggg g♯ g| d♯d♯d♯ f d♯|
+x	[Cm] [Cm|B♭]
+f ab g eb c!</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/meu pedaco de pecado.png'>Pedaço de pecado Dm</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/23 - João Gomes - Meu Pedaço de Pecado.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>x	[Dm|C|Gm|B♭] (C)</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/passatempo.jpeg'>Passa tempo cm capo</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/25 - Wesley Safadão - Passatempo.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>x	[Cm|E♭|Gm(B♭)|F]soloccc d c~ a♯ ccc ...D♯ Gm</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/baby me atende.png'>Baby me atende Bm (capô)</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/22 - Matheus Fernandes - Baby Me Atende.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>x	[Bm|Em|G|F♯(m)]</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/meia noite.png'>Meia noite Em</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/16 - Zé Vaqueiro - Meia Noite.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>x	[Em|G|Bm D|A]</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/recairei.png'>Recairei B♭</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/08 - Os Barões Da Pisadinha - Recairei (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[E♭|B♭|F|%]
+b	[E♭|B♭|F|Gm|
+	[E♭|B♭|F|% |
+r	[Cm|E♭|B♭|F]
+fim	[B♭]</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/putariazinha1.png'>Putariazinha</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/henry-freitas-putariazinha.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[Bm]  [Bm|A]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Ameaça</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Paulo Pires - Ameaça.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[Cm|A♭|E♭|B♭]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Toma toma vapo vapo</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Zé Felipe - Toma Toma Vapo Vapo.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>x    [Em|C|(B7)]</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/volta comigo b♭.png'>Volta comigo BB C♯m</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/19 - Zé Vaqueiro - Volta Comigo BB.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>x	[A|C♯m|G♯m|B]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Revoada no colchão</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Zé Felipe - Revoada No Colchão.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[Fm|C♯|G♯|D♯]
+pr	|A♯m|C♯|Fm|D♯|
+	|A♯m|C♯|D♯|>.A</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Carnaval</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src="#" type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>taj mahal | paístropical
+i	[f♯ a b c♯ Esus7]
+a	[Bm|C♯m|F♯m|%]
+	[e d b c♯ F♯m] conv f♯, a conv f♯
+
+país tropical
+i	conv G, conv c b G
+a	[G |C D][Em D|C D] conv d
+b	[C7|%|G|%  ] conv d
+f	[g!| cd| G7]
+
+PARARÁ | ARERÊ
+x	[C|Am|F (Dm)| G]
+
+arere
+a	[C C/E| F G]
+b	[F|G|F|G!]
+b'	[F|%|G|%!|
+
+EVA (c) 
+i	[Dm]...
+
+CELEBRAR
+i	[D!|E!|F♯m]
+	[D E|C♯m F♯m]
+	|D A/C♯ B A| E]
+a	[A|E|F♯m|D]
+b	[F♯m|D|E|C♯m|F♯m|D|E!]
+r	[D|E|C♯m|F♯m]
+
+LEVA EU | SUPER FANTÁSTICO
+i	[E|B|A]
+r	[E|A|F♯m|B|E]
+a	[B|C♯m|B|E ef♯ f♯g gg♯g♯|
+	|B|C♯m|ab E!] D A/C♯ |B],r
+
+super fantástico
+i	[E7 ee edb ee db]
+a	[E|C♯m c♯ d♯ f |
+	|F♯m F♯m7M|B b c♯ d♯|E]
+pr	[A|B|G♯m|C♯m| A| B7!]
+r	[E|C♯m|G♯m|B]
+	[A|B|G♯m|C♯m|A| B7!] (E!)
+
+POUT TIM MAIA
+descobridor
+a	[Gm|C C/F]
+r 	[B♭ Fm | E♭ Cm]
+
+não qro dinheiro
+a	[A|F♯m|A|F♯m|¹E]D Dm|E]
+r	[D E9/D|C♯m F♯m |B E |A!]
+
+PIPOCA | QUERO CHICLETE
+i	[A|Bm|G A|Bm]
+a	[Bm A|Bm|Em F♯m|Bm]
+b	[A|Bm|G A (F♯) |Bm] (A)
+r	[Bm A|Bm|Em F♯m|Bm]
+b'	
+c	[Em|Bm|G F♯m|Bm|
+	[Em|Bm|G |f♯ g F♯7]
+
+quero chic	
+i	[A G| %| %|A]
+a	[E D |A] A F♯m|B|E]
+r	[A|D|E|%]
+s	[A|D|
+
+MEU ERRO | UMA BRASILEIRA
+meu erro
+i	[A|E|D|% (Dm)]
+a	[A|C♯m|D|Dm] r
+b	[C♯m|F♯m|D|Dm]
+
+uma br
+a	[A E/G♯|F♯m C♯m|
+	||F♯m C♯m|DA/C♯|Bm E]
+pr	[D|E Fº|F♯m F♯m/E| F♯m6/E♭]
+r	[D E|D E|D C♯m|F♯m (lick]
+
+Vira Vira
+	[E B] A B E [B|E]
+
+PELADOS
+a	[D|Bm|G|A] (a g
+b	[F♯5|G5 a g] A|%]
+
+TREM DAS ONZE
+i	[Gm A♭°|Dm/A|
+	|B♭! A7| Dm| A7b13]
+a	[Dm|%|A7 D7/F♯!|Gm |
+	|Dm|B♭|A7|B♭ A7|Dm]
+</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Voa, beija flor</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Jorge & Mateus - Voa Beija-Flor (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[A|E|Bm|D E]
+pr	[Bm|D E]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Atrasadinha</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Felipe Araújo - Atrasadinha (Live).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[C|D|Em]
+a	[C|D|Bm|Em] (C|D)
+o	[Am|Cm][G%|C%]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Não to valendo nada</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Henrique & Juliano - Não Tô Valendo Nada (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[C♯m|A|E|B]
+b	[F♯m|% E/G♯|A|E|B]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Borboletas</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Victor & Leo - Borboletas.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	(Bm D)
+	[Bm%|A%|%|G|A%]
+a	[Bm|D|A|Bm]
+b	[Em|G|D|A]
+r	[G|D|A|Bm]
+s	[Bm|D|A|F♯|G|A|Bm]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Casamento</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>O nosso santo bateu
+a	[C | Em | F | C ]
+Pr	[ F | G | C | Dm F | G!]
+R	[ F | G | C | F ]
+Fim	[riff G F penta | f e d a g e C!]
+
+Você vai ver
+I	[C Dm |A B♭ |F C |F C ]
+a	[F  C/E |Dm Dm/C |B♭ Am | 
+	|Gm Gm/F |C/E A |Dm B♭ |
+	|F C |F C ]
+R	[F C/E |Dm F/A |B♭ F |C % ]
+
+
+Você vai ver C
+I 	[G Am |E F |C G |C G ]
+a	[C G/B |Am Am/G |F Em |
+	|Dm Dm/C |G/B E|
+	|Am F |C G |C G ]
+R 	[C G/B|Am C/E|F C |G % ]
+
+Nocaute
+a	[ Am | C | Am C ]
+b	[ Dm |F G |Dm |
+	|F G |F G |F G ]
+R	[ Dm | F | C  | G ]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">ZINE</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>primeiros erros
+
+ig	[D|E/D]
+i	[D|D/C♯|G6/B|%]
+a	[D%%|Bm%|'A].G7M]
+b	[G6%|Em%%]
+	i,a.,b,ig,
+	a.,b3x,i,ig
+
+ana julia
+
+i	[E|C♯m]
+a	[E|C♯m|G♯m|A B]
+b	[C♯m|G♯m|A|B]
+r	[E|A|B%]
+s	[E|A|B%]
+	[C♯m|G♯m|A|E](B)
+pr	[C♯m|G♯m|A|E](B)
+
+será
+
+a	[C|G|Am|F]
+	|Am|Em|F|G]
+p	(CFG)
+r	[G%|Dm%]Am|F|G],p
+f	[C%|G/B%|Gm/B♭%|Dm%]
+	[GF]</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/encerramento.png'>Tema de Encerramento</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/WhatsApp Audio 2021-11-29 at 11.26.47.mpeg' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><h2>Reservas</h2><span class='abreLi'></span>
+	<div class='mus'><li><a target='_blank' href="#">compadre e comadre</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[D!|A|Bm|A|G|D]
+a	[G|D|A|Bm]
+	[G|D|A|D gD]
+b	[G|A|Bm|%](DgD)
+	i, G agf♯gabcc♯D
+
+1,2 3
+
+i	[D!%|A%]
+a	[D%|A%]
+	[G|A|D%|A%|D%||
+	|G|G a|Bm|Bm f♯|G|A|D|
+	|G|G a|Bm|Bm a|G Em|A D!]
+r	[A%|D%][G|A|D%]
+	i,D!</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">antigas (Zeze)</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>Pão de mel
+i	[aA♯|a♯C|aA♯| C!]
+a	[C|G|F|C]
+p	[Dm|F!|C|%]
+r	[C%|G%|
+	|Dm|G|C%]
+f	[F|G|C%|
+	|F|G|G♯ g♯ a♯ c|A♯ a♯ c c♯|D!]
+
+voce vai ver
+ir	[D A/C♯|BmAm f♯!|G! D/F♯|A|%]
+a	[D A/C♯|Bm Am D|G D/F♯|Em Em/D|
+	|A/C♯ F♯7|Bm G|D A|D A]
+f	a b c♯ d a b c♯  e A
+	dc♯baf♯eD
+
+sem medo de ser feliz
+i	[riff D]
+p	[D|A|G|D]
+r	[D|F♯|G A|D gdgD]
+	[gg♯A bc A/C♯|D|
+	[riff A blues|D gdgD](D7)
+b	[G A|F♯ Bm|(G)Em A|D]
+	a d e g f♯~e d G
+
+nova iorque
+i	[A|E|b♭ c♯D|%]
+	d c♯ a d c♯ a,b♭b c♯
+a	[Bm|D|A|%](!)
+b	[D|A! d c♯ bab da]
+	[Bm!|D|'A|E]
+	i, b♭ bc♯d dc♯b bc♯dc♯bagf♯ A!</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">bebo pra carai</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>x	[E%|B%]
+
+cachaceiro
+
+x	[E|F♯m|B|E]
+brk	[g♯ed♯| /C|F|C|F|C]
+a	[C|G|F|C|G]
+r	[G|F|C|G] (C7|F|G|C]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">amor de violeiro</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[C|F]
+a	[C|G|F|C|G]
+p	[G|F|C|% f](F|G|C]
+s	i
+f	[C f|C]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">menina veneno</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[F G|Am(Em)]
+r	[A♯|F|C|G|Dm|Am|G]
+f	[GFGFG!]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">mala pronta</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[C|Am|F|G]
+b	[Em|Am|F|G]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">apelido carinhoso</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[Cm|E♭|B♭|F]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">largado às traças</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[B|C♯|D♯m|%]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">eu sei de cor</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>r	[A|E|F♯m|D]
+a	[A|C♯m|F♯m|D|
+	|A|E|F♯m|D|B|E]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">tentei te esquecer</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[C|F|G|%]Dm|G|C](E)
+b	[Am|F|G|%]
+r	[C|F|G|%](E) Am|F|
+	[Dm|G|C|%]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">morango do nordeste</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[C|G|Dm|Am|F) G]
+v	[C%|G%]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">pagina de amigos</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>x	[C|G|F|C](G)</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">passou da conta</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[C|F|Em|Dm|Fm|G]
+a	[C%|F%|C%|G%|F%|C%]
+r	[C|G|F|C|G|F|C|G]
+s	[E♭ Dm|D♭ Cm|B♭|G]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">por um gole a mais</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[G|D|C|G|B]
+r	[E|B|A|E]
+s	[G|D|C|F f♯|
+	|G|D|C|%]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">bijuteria</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[Am| Am/G|Dm|Dm/C|B7b5|E|Am|A]
+r	[Dm|G|C|F|Bm7b5|E|Am A]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">dois corações e uma historia</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[D|E]A]
+a	[Bm|E|A|F♯m|Bm|E|A|%]
+r	[D|E|A|F♯m|Bm|E|D|E|A]+1</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">todo mundo vai sofrer</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[D♯|A♯|Fm|G♯]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">como um anjo</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[F B♭]
+a	[F B♭!|F|C%|Gm%|B♭|C]
+b	[Dm%|C%|B♭%|Gm F|C]
+r	[F|Dm|B♭|Gm|C|
+	[F|Dm|B♭|CF|C|
+s=r</pre>
+        </div>
+        <hr></div><h2>Antigas</h2><span class='abreLi'></span>
+	<div class='mus'><li><a target='_blank' href='../partituras/espacosa demais.jpeg'>Espaçosa demais B♭</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/02 - Felipe Araújo - Espaçosa Demais (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[E♭ |B♭|Dm|Gm F]
+	[:B♭|E♭:]
+a	[Cm E♭|B♭ F]>c d eb. f.
+R=i	|a,rr e fim</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/quero ver e me esquecer.png'>Quero ver é me esquecer Fm</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/07 - Os Barões Da Pisadinha - Quero Ver é Me Esquecer (feat. Jorge) (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>x	[Fm|D♭|A♭|E♭]
+db c b♭ ab eb (antes do refrao)
+>contras no refra</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/facas.png'>Facas A</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/09 - Diego & Victor Hugo - Facas (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[D|%|A|%]
+r	[D  |A  |D  | A   |
+	|F♯m|C♯m|Bm Esus|A]
+	|a,r,f|Bm Esus|D|A|</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/troca.png'>Troca C♯</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/10 - Jorge & Mateus - Troca.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>x	[C♯|G♯|A♯m|F♯]
+bass entra{|A♯m G♯|F♯....|}.</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/alo ambev.png'>Alô ambev A</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/12 - Zé Neto & Cristiano - Alô Ambev (Segue Sua Vida) (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[A|E]
+a	[A|E|Bm|D Dm]
+brs	[Bm D|A E] D E]
+	a...
+	: fim b♫</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/segunda taca.png'>Segunda taça A</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/13 - João Bosco & Vinícius - Segunda Taça (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[A]
+a	[A|%|D|%|Bm A/C♯|D|A]
+b	[Bm|D|F♯m|E]Bm A/C♯|D|E]
+r	[A|%|E| % |F♯m|E|
+	[A|%|E|E D|F♯m|D|DE]
+s	[A|%|E| % |F♯m|E]
+	b,r,f(A)</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/investe em mim.png'>Investe em mim A</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/14 - Jonas Esticado - Investe Em Mim.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[F♯m|D|A|E]
+a	[Bm|A|E|%]E...|%]
+	r=i,s,b,r
+c	[Bm|F♯m|A|E|
+	|Bm|D|E|%|%]
+	r
+f	[b c♯ d a |f♯]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Tapão na Raba Dm</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/18 - Raí Saia Rodada - Tapão Na Raba.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[D♯m|G♯]
+b	[D♯m|C♯]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Bebe vem me procurar Fm</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/20 - Raí Saia Rodada - Bebe e Vem Me Procurar.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>x	[Fm|D♯|A♯m|C♯]</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/ta rocheda.png'>Tá rocheda F♯m (capô)</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/26 - Os Barões Da Pisadinha - Tá Rocheda.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>x	[F♯m|A|E|Bm]</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/so nao divulga.png'>Só não divulga c</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/28 - Fernando & Sorocaba - Só Não Divulga.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[Dm |F  |Am |G]
+b	[A♯%  |Dm%|C% |G%]
+r	[Dm%|F% |Am%|G%]² Glick|G]
+a,b,r,r,f</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/quarta cadeira.jpeg'>Quarta cadeira G♯</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/42 - Matheus & Kauan - Quarta Cadeira (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[G♯|%|Fm|%|C♯]
+a	[G♯|%|C♯|%|Fm|D♯|C♯|%]
+r	[G♯|%|Fm|%|C♯|D♯]
+s	[C♯|%|D♯|%|Fm|%]
+	i,a,r,sf</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/notificacao preferida.jpeg'>Notificação preferida B</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/04 - Zé Neto & Cristiano - Notificação Preferida (Ao Vivo).mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>x	[E|F♯|D♯m|G♯m]
+	(E F♯ G♯m %)</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/acaso.png'>ACASO/ Não, não vou</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Vitor Fernandes - Acaso.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>Acaso
+x	|A|C♯m|G♯m|B|(A B) .E/
+
+Não não vou
+X	|Gm|F|Dm|E♭|
+(b♭ a g f 'g')</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/vagabundo.png'>VAGABUNDO</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/Matheus & Kauan - Vagabundo.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[C♯m|A|B|E]
+pr	[C♯m|A|C♯m|A|
+	|C♯m|B|A|%|B]
+r	[C♯m|A|B|C♯m|
+	|A|B|G♯m|C♯m]
+s	[A|B|G♯m|C♯m B.]
+f	[A|B|C♯m]</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/volta bebe volta nenem.png'>VOLTA BB VOLTA NENÉM</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/24 - DJ Guuga - Volta Bebê, Volta Neném.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>x	[D♯m|B|F♯|C♯]</pre>
+        </div>
+        <hr><li><a target='_blank' href='../partituras/ferida curada.jpeg'>Ferida curada D</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='../audio/43 - Zé Neto & Cristiano - Ferida Curada.mp3' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[F♯m|Bm|G|D](bass só na ²)
+a	[Bm|F♯m|G Em|A b A/C♯|aA]
+r	[G%|A%|Bm%|(D%]</pre>
+        </div>
+        <hr></div><h2>Carnaval 2023</h2><span class='abreLi'></span>
+	<div class='mus'><li><a target='_blank' href="#">Abertura</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Tá cedo ou já pode</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Bombozinho</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Rolê</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Vamos tomar uma/ no balanço da rede</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Esquema preferido / volta comigo BB</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Batom de cereja / Assunto delicado</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">EVA</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>EVA (c)
+i	[Dm]
+a	[F%|G%](C)
+	[C|Dm%]
+r	[C|Am|F|Dm|G]
+p	[Am|G|F|Dsus4]
+a'	[C7alt...|D7M]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Taj Mahal / pais tropical</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[f♯ a b c♯ Esus7 (Bm C♯m)]
+a	[F♯m|%|Bm|C♯m]
+	[e d b c♯ F♯m] conv f♯, a conv f♯
+país tropical
+i	conv G, conv cb G
+a	[G |G/B| C D][Em D|C D] conv d
+b	[C7|%|G|%  ] conv d
+f	[g!| c♯dc♯d| G7]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Por pourri descobridor</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>descobridor
+a	[Gm|C C/F] (conv eef f♯f♯g)
+r 	[B♭ Fm | E♭ Cm]
+não qro dinheiro
+a	[A|F♯m|A|F♯m|¹E]D Dm|E]
+r	[D E9/D|C♯m F♯m |B E |A!]
+	(conv2 abc♯dedc♯ A)
+f	(conv ef♯aba)</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">parara e arere</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>PARARÁ | ARERÊ
+x	[C|Am|F (Dm)| G]
+arere
+a	[C C/E| F G]
+b	[F|G|F|G!]
+b'	[F|%|G|%!|</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Bloqueado forro</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Pipoco forro</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	lick Am B°
+a	[Am|% |F|G] (B♭m) (lick Am)
+r	[Am|C |F|G]
+a'	[Am|G|F|G] (Am) (lick Am)
+f	r, d c b Am!</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Fala mal de mim</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Solteiro de novo</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>x	[C♯m|A|E|B]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Haja colírio (axé)</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Mal feito / esqueça me se for capaz</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Praieiro</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	(bC♯m|z B)
+	[C♯m|G♯m|A|E E B/D♯](B)
+	[A B|C♯m (c♯ d♯ e d♯ c♯)]
+a	[C♯m|G♯m|A|E E B/D♯](B)
+b	[F♯m G♯m|C♯m]
+	[F♯m|B|E|F♯m|G♯m|C♯m B]
+r	[A B|G♯m C♯m|A B | E B/D♯ C♯m B](E)</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Mila</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>pi	[A|B|G♯m|C♯m|A](A|B|E|%)
+i	[E!]
+a	[E|A B]
+b	[C♯m|G♯m|A|E E B/D♯]
+	[C♯m|B/E♭|E|%]
+r	[A|B|G♯m|C♯m|A](A|B|E|%)</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Pipoca e quero chiclete</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>PIPOCA
+i	[A|Bm|G A|Bm]
+a	[Bm A|Bm|Em F♯m|Bm]
+b	[A|Bm|G A (F♯) |Bm] (A)
+r	[Bm A|Bm|Em F♯m|Bm]
+b'	
+c	[Em|Bm|G F♯m|Bm|
+	[Em|Bm|G |f♯ g F♯7]
+quero chic	
+i	[A G | %%| %%|A]
+a	[E D | A ] B |E]
+	[A F♯m|B|E]
+r	[A|D|E|%]
+s	[A|D|Bm|E]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Leva eu super fantástico</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>LEVA EU | SUPER FANTÁSTICO
+i	[E|B|A|B]
+r	[E|A|F♯m B|E]
+a	[B|C♯m|B|E ef♯ f♯g gg♯g♯|
+	|B|C♯m|gf♯ E!] D A/C♯ |B],r
+super fantástico
+i	[E7 ee edb ee db]
+a	[E|C♯m c♯ d♯ e |
+	|F♯m F♯m7M|B b c♯ d♯|E]
+pr	[A|B|G♯m|C♯m| A| B7!]
+r	[E|C♯m|G♯m|B]
+	[A|B|G♯m|C♯m|A| B7!] (E!)</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Te espero no farol/ colorir papel</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>te espero
+i	[G|D|C|D] Em|Bm|C Am|D]
+a	[G|D|C|D]
+b	[C|D|C|D| Em|Bm|C Am|D|D!]
+a,i
+
+colorir
+x	[Dm|C7M]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Por pourri logo eu / rosa e beija fl</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Meu pedaço de pecado/ aquelas coisas</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Tem cabaré essa noite</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Novinha vai no chão</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[b!| c!| b♭b♭aba]
+a	[E|C|E|Am]cc♯d
+b	[Dm|%|%|Am|Dm|%|%|E|Am|E|Am] cc♯d
+p	[Dm|Am|E|Am|Dm|Am|E|%]
+r	[E|C|E|Am] atk .b</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Baby me atende/ late coração</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href='./partituras/{'>Passa tempo</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href='./partituras/{'>brincadeira: chamar pra dançar no pa</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">tomada / dança da mãozinha</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[D Bm|Em|%|Am D|G Gm|F♯m B|Em A|D]
+r	[D|%|Em|%|A|%|Em A|D]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Pot pourri tchan</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href='./partituras/{'>Cheia de manias</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Thuchubirabirom / lepo lepo</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>tchu
+x	[A|F♯m|Bm|E]
+lepo
+a	[A|E|F♯m|D]
+b	[Bm|F♯m|A|E]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Trem das onze</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[Gm G♯°|Dm %|B♭! A7!|Dm A7]
+a	[Dm|%|%|A7 Am D|
+	|Gm A|Dm|Dm EmA|A|B♭ A|Dm (A)]
+b	[D7 |Gm |G♯° Em7b5|A7 (def f♯g)|
+	|Gm! G♯°|Dm|B♭ A7|Dm A7]
+if	[Gm  G♯°|Dm|B♭ A7|Dm A7]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">cerveja de garrafa</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[E%| A% ]
+b	[E%|F♯m%]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Péssimo negócio</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i		[Gm F/A |B♭|Gm F/A |E♭]
+a		[Gm F/A|B♭|Cm B♭/D|F ]
+pr		[A♯ F/A|Gm|Cm B♭/D|F (f eb d c)]
+R		[A♯ F/A|Gm fg|CmB♭/D|F/AE♭/GF]
+sobe 1/2 tom no fim</pre>
+        </div>
+        
+        
+        <hr><li><a target='_blank' href="#">Pé na areia</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[G7M|D7M]
+a	[D7M|D9|G7M|Gm7!|
+	[D7M|D9|G7M|E♭7M]
+b	[Em9|D7M] 3x
+	[Esus4|F♯7]
+r	[Em9 G7M|D7M B9] 3x
+	[Em G|D7M!]
+	a',b,r 2x,i
+</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Falta você</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	Slap B¾
+	[D7M | D7sus4| G7M| A♯7M C7]
+a	[D7M| Am7   | G7M| C13]
+b	[D7M| D7sus| G7M| C13|
+	[D7M| D7sus| G7M| A♯7M C13]
+	|D7M| D7sus| G7M| A♯7M C13]
+	fim=a</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Meu Erro e Uma brasileira</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>meu erro
+i	[A|E|D|% (Dm)]
+a	[A|C♯m|D|Dm] r
+b	[C♯m|F♯m|D|Dm]
+uma br
+a	[A E/G♯|F♯m C♯m|
+	||F♯m C♯m|DA/C♯|Bm E]
+pr	[D|E Fº|F♯m F♯m/E| F♯m6/E♭]
+r	[D E|D E|D C♯m|F♯m (lick]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Chega e senta</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Malvada</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Putariazinha</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Revoada no colchão</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Toma toma vapo vapo</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Ameaça</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Ana Júlia</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[E|C♯m]
+a	[E|C♯m|G♯m|A B]
+b	[C♯m|G♯m|A|B]
+r	[E|A|B%]
+s	[E|A|B%]
+	[C♯m|G♯m|A|E](B)
+pr	[C♯m|G♯m|A|E](B)</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Do seu lado</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[D |%|Am|%|C|G|D|%]
+b	[C |G|D|%]
+	[Em|G|D|%]
+r	=a
+f	(G D/F♯ C|D!)</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Será legião</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[C|G|Am|F]
+	|Am|Em|F|G]
+p	(CFG)
+r	[G%|Dm%]Am|F|G],p
+f	[C%|G/B%|Gm/B♭%|Dm%]
+	[GF]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Vira vira</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Pelados em santos</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[D|Bm|G|A]
+b	[ag F♯%|G%]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">valeu a pena</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[B♭m % | A♭%]
+r	[D♭ B♭m| A♭%]
+</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">novinha do onlyfans</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>a	[Em| D ]
+b	[Em|% D]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">roça roça em mim</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>x	[Am|G|Dm|F] (E7)</pre>
+        </div>
+        
+        <hr><li><a target='_blank' href="#">Leão</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>x	[(B)|F♯|A♯7|D♯m]</pre>
+        </div>
+        
+        
+        <hr><li><a target='_blank' href="#">Zona de Perigo</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>x	[Gm|B♭|F|C]</pre>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        <hr><li><a target='_blank' href="#">pega o guanabara</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>x	[E|F♯|D♯m|E]</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">celebrar</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'>i	[D!|E!|F♯m]
+	[D E|C♯m F♯m]
+	|D A/C♯ B A| E]
+a	[A|E|F♯m|D]
+b	[F♯m|D|E|C♯m|F♯m|D|E!]
+r	[D|E|C♯m|F♯m]
+f	[D E|C♯m F♯m]
+	|D A/C♯ B A| E]
+	(A!)</pre>
+        </div>
+        <hr><li><a target='_blank' href="#">água no zoi</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Meu pedaço de pecado/ aquelas coisas</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr><li><a target='_blank' href="#">Tapão na raba</a></li><span class='abreLi'></span>
+    <div class=mus>
+
+      <audio controls preload='metadata'>
+        <source src='./audio/' type='audio/mpeg'>
+				</audio>
+				<div class='container-transp'></div>
+
+				<pre class='preCifra'></pre>
+        </div>
+        <hr></div>			</div>
+			<div id="vai">
+				<input type="range" step="1" min="1" max="1" value="0" id="rangeVai" oninput="vai(); mudaNome()"></input>
+				<span class="coment" id="rangeNome"></span>
+			</div>
+		</ol>
+
+		<br>
+	</main>
+</body>
+<script>
+	let buttons = document.getElementsByClassName('container-transp')[0].innerHTML;
+	let divsContainer = document.getElementsByClassName('container-transp');
+	for (let i = 0; i < divsContainer.length; i++) {
+		divsContainer[i].innerHTML = buttons;
+	}
+
+	var abre = document.getElementsByClassName('abreLi')[0].innerHTML;
+	let li = document.getElementsByClassName('abreLi');
+	for (let i = 1; i < li.length; i++) {
+		li[i].innerHTML += abre;
+	}
+
+	for (let i = 0; i < document.getElementsByTagName('li').length; i++) {
+		document.getElementsByTagName('li')[i].id = i;
+	}
+
+	document.getElementById("rangeVai").max = document.getElementsByTagName('li').length;
+
+	mudaNome();
+	
+		for (let i = 0; i < document.getElementsByTagName('li').length; i++) {
+		document.getElementsByTagName('li')[i].id = i;
+		if(document.getElementsByTagName('li')[i].firstElementChild.getAttribute("href").length<4){
+			document.getElementsByTagName('li')[i].firstElementChild.setAttribute("target","_self");
+		//alert(i);
+		}
+	}
+
+
+	function abreLi(source) {
+		if (source.value == '+') {
+			source.parentElement.nextElementSibling.style.display = 'block';
+			source.value = '-';
+			return;
+		}
+		if (source.value == '-') {
+			source.parentElement.nextElementSibling.style.display = 'block';
+			source.parentElement.nextElementSibling.style.display = 'none';
+			source.value = '+';
+			return;
+		}
+	}
+
+	function abreTodos(source) {
+		let todos = document.getElementsByClassName('abreButton');
+		if (source.value == '+') {
+			for (let i = 0; i < todos.length; i++) {
+				todos[i].parentElement.nextElementSibling.style.display = 'block';
+				todos[i].value = '-';
+			}
+			source.value = '-';
+			return;
+
+		}
+		if (source.value == '-') {
+			for (let i = 0; i < todos.length; i++) {
+				todos[i].parentElement.nextElementSibling.style.display = 'none';
+				todos[i].value = '+';
+			}
+			source.value = '+';
+			return;
+		}
+	}
+	function cifraUp(source) {
+		source.parentElement.parentElement.querySelector('.preCifra').innerHTML = transpose_up(1, source.parentElement.parentElement.querySelector('.preCifra').innerHTML);
+		source.nextElementSibling.value++;
+		if (source.nextElementSibling.value >= 12) source.nextElementSibling.value -= 12;
+		if (source.nextElementSibling.value <= -12) source.nextElementSibling.value += 12;
+		//source.nextElementSibling.value
+	}
+
+	function cifraDown(source) {
+		let a = parseInt(source.previousElementSibling.value);
+		source.parentElement.parentElement.querySelector('.preCifra').innerHTML = transpose_up(-1, source.parentElement.parentElement.querySelector('.preCifra').innerHTML);
+		a--;
+		if (a >= 12) a -= 12;
+		if (a <= -12) a += 12;
+		source.previousElementSibling.value = a;
+	}
+
+	function cifraReset(source) {
+		source.parentElement.parentElement.querySelector('.preCifra').innerHTML = transpose_up(-source.value, source.parentElement.parentElement.querySelector('.preCifra').innerHTML);
+		source.value = 0;
+	}
+
+	function vai() {
+		let x = document.getElementById('rangeVai').value - 1;
+		window.location.replace("#" + x);
+		if (x < document.getElementsByTagName('li').length - 1) window.scrollBy(0, -52);
+	}
+
+	function mudaNome() {
+		let x = document.getElementById('rangeVai').value;
+		document.getElementById('rangeNome').innerHTML = '(' + x + ')' + document.getElementsByTagName('li')[x - 1].innerText;
+	}
+
+
+
+function geraLog(){
+	li00 = document.getElementsByTagName('li');
+	log = new String;
+	log +='[\n';
+	
+	for (let i=0;i<li00.length;i++){
+		
+		nome = li00[i].innerText;
+		part = li00[i].firstElementChild.getAttribute("href");
+
+		if((document.body.contains(li00[i].nextElementSibling.nextElementSibling.firstElementChild.firstElementChild))){ 
+		src = li00[i].nextElementSibling.nextElementSibling.firstElementChild.firstElementChild.getAttribute("src");
+		} else src = "";
+		
+		
+		if(li00[i].nextElementSibling.nextElementSibling.getElementsByClassName('preCifra')[0] != null){
+			cifra00 = li00[i].nextElementSibling.nextElementSibling.getElementsByClassName('preCifra')[0].innerText;
+			cifra00 = cifra00.replace(/\n/g, '\\n');
+			cifra00 = cifra00.replace(/\t/g, '\\t');
+			cifra00 = cifra00.replace(/"/g, '.');
+	} else cifra00 = "";
+			log += '{\n"id" : '+(i+1)+',\n"nome": "'+nome+'",\n"part": "'+part+'",\n"src": "'+src+'",\n"cifra": "'+cifra00+ '"\n},\n';
+		}
+		log += ']';
+		console.log(log);
+	}
+//	geraLog();
+</script>
+
+</html>
