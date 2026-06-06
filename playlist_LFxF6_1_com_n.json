@@ -1,0 +1,1709 @@
+{
+  "playlist": [
+    {
+      "bloco": "Geral",
+      "songs": [
+        {
+          "nome": "Abertura",
+          "cifra": "C♯m[c♯ d♯ f g |g♯][C♯ pedal]\nlick F♯Δ\n[A7M G♯m F♯m9|G7M D7 C7M|\n|Gm Fm F/A|A♯sus4|Csus4|C♯m]",
+          "n": "1"
+        },
+        {
+          "nome": "Paradigmas C♯",
+          "cifra": "a\t[C♯ |G♯ |D♯m|F♯]\nb\t[D♯m|A♯m|C♯ |G♯]\n\t>convenções: part",
+          "n": "2"
+        },
+        {
+          "nome": "Arranhão",
+          "cifra": "i\t|Dm|A♯|C|A7| (mute)\nprf\t|A♯|C|Dm| e F|\nR\t|A♯|C|Am|Dm|",
+          "n": "3"
+        },
+        {
+          "nome": "Propaganda D",
+          "cifra": "i/\t[D]\na\t[D|A|Bm|G]\nb\t[Em|G|D|A]\nR=a\t|s=a,a,b,r,fim",
+          "n": "4"
+        },
+        {
+          "nome": "Briga feia G♯m",
+          "cifra": "i/\t[G♯m|B|F♯|C♯/F]\na\t[C♯m|E|B|F♯| C♯m|E.]\nR\t[: B|%|F♯| %|\n\t|C♯m|E|B|F♯:]\ns\t[C♯m|E|B|F♯ ]",
+          "n": "5"
+        },
+        {
+          "nome": "Vou falar que não quero",
+          "cifra": "X\t|Dm|A♯|F|C|",
+          "n": "6"
+        },
+        {
+          "nome": "Vc beberia ou não beberia",
+          "cifra": "X\t|Cm|E♭|B♭|F|",
+          "n": "7"
+        },
+        {
+          "nome": "Vai la em casa hoje",
+          "cifra": "x\t[C♯m|G♯m|B|F♯]",
+          "n": "8"
+        },
+        {
+          "nome": "Batom de cereja Bm",
+          "cifra": "a/i\t[Bm|D|A (F♯m)|E]\nb\t[Bm D|A E  |\n\t|Bm D|A E]",
+          "n": "9"
+        },
+        {
+          "nome": "Ela e ela",
+          "cifra": "I\t[D|Am|Dm|Am|Em]\nA=R\t[C|D|Bm|Em]\nP\t[D|Am]\nPrf\t[Em|Bm|C|D]",
+          "n": "10"
+        },
+        {
+          "nome": "Último beijo Dm",
+          "cifra": "x\t[Dm|B♭|F|Am]",
+          "n": "11"
+        },
+        {
+          "nome": "Esqueça-me se for capaz",
+          "cifra": "a\t[Dm|G|Em|Am]",
+          "n": "12"
+        },
+        {
+          "nome": "Mal Feito",
+          "cifra": "i\t[D♯|G♯]\na\t[G♯|% A♯|Cm|% Gm]\na'\t[G♯|A♯|Cm|A♯(!] (....|,;¨¨¨|,)\nr\t[Fm|G♯|Cm|A♯]\nbreak fim\n\t[Fm|G♯|Cm| B♭||\n\t|eb d c b♭ |g b♭ g eb |",
+          "n": "13"
+        },
+        {
+          "nome": "Erro Planejado",
+          "cifra": "I\t[Em|Am|D|Em]\na\t[C|G|D|%]\nR\t[Dm|Am|C|G]",
+          "n": "14"
+        },
+        {
+          "nome": "Molhando o Volante",
+          "cifra": "I\t[B♭ lick]\na\t[E♭| %| Gm| F] (E♭)\nR\t[ B♭| F| Cm| E♭ ] (solo)",
+          "n": "15"
+        },
+        {
+          "nome": "Imagina a sentada",
+          "cifra": "I\t[Am G/B |C ]\na\t[G | Am |C | G|\n\t|Am G |C Dm| Am| G]\nPr\t[C G|Am G]\nR\t[Dm| Am| G| Dm]\nIntro.conv > A> pr > R, R' (g g♯ a a♯.), > Intro.fim\nf\t[Am G Dm! .| C]",
+          "n": "16"
+        },
+        {
+          "nome": "Todo seu",
+          "cifra": "i\t[G|%C!|G!]\na\t[C%|D%|G b~|D/F♯ a|\n\t|Em%!|C%|D!%|G%|\n\t|A!%|C|D!]\nr\t[C%|C!D!|Em%|D%!]\n\t|C|D!|G!]\nf\t[C%|C!D!|Em%C!|G!]",
+          "n": "17"
+        },
+        {
+          "nome": "Termina Comigo Antes",
+          "cifra": "a\t[Am|F|C|G] C| F G]\nr\t[C|F|C|G| \n\t[Am|F|C|G]",
+          "n": "18"
+        },
+        {
+          "nome": "Abalo Emocional",
+          "cifra": "I\t[D♯m]\na\t[: D♯m| A♯m| G♯m| B C♯:]\n\t| D♯m| A♯m | B!]\nR\t[B| C♯| D♯m|% ] \n\t(B! |C♯! |B |D♯m C♯m)",
+          "n": "19"
+        },
+        {
+          "nome": "Vamo Tomar Uma",
+          "cifra": "I\t(c♯... ag♯f♯ g♯ f♯f♯:)\na\t[F♯m|D|A|E]\npr\t[D|E|F♯m|D|Bm..]\nf=i\td c♯b f♯f♯f♯",
+          "n": "20"
+        },
+        {
+          "nome": "Balanço da Rede",
+          "cifra": "a \t[F♯m|E|B/D♯|D]",
+          "n": "21"
+        },
+        {
+          "nome": "Tem cabaré essa noite",
+          "cifra": "I\t[F♯m|E|Bm|D]\na\t[F♯m|%|D|E]\nb\t[D|E|A E/G♯|D/F♯ E|\n\t|D|E|F♯     |%]\nR\t[D|E|F♯|%]",
+          "n": "22"
+        },
+        {
+          "nome": "Bloqueado",
+          "cifra": "i\t[Bm|A]\na\t[Bm|G|D|F♯m] G%|A]\nr\t[Bm|A|Em|% D/F♯|G|A] Bm]\ns\t[Bm|A%||Bm A|G Em]lick Bm",
+          "n": "23"
+        },
+        {
+          "nome": "Fala mal de Mim",
+          "cifra": "x\t[C%|G7%]",
+          "n": "24"
+        },
+        {
+          "nome": "Água nos zói",
+          "cifra": "I\t[D |A |Bm |G ]\na\t[D%| E% |G% | D% ] \n\t|E%| G|G A| Bm| A|  G!]\nR\t[D |A |Bm|G!|D|E|G|A!'|D|A!]\nI'\t[D| A| Bm| G!| D |E | G!]\na,r,i.",
+          "n": "25"
+        },
+        {
+          "nome": "Vagabundo Chora",
+          "cifra": "i\t[G♯m|%|%|\n\t|G♯m%|E%|F♯%|G♯m%]\na\t[E%|F♯%|D♯m%|G♯m%|F♯!%]\nr\t[B%|F♯%|G♯m%|E%:]\n\t[E|F♯|G♯m|F♯]\ns\t[B%|F♯%|G♯m%|E]\n\ta,r,r!\nf\t[E|F♯|G♯m|%!|G♯m]",
+          "n": "26"
+        },
+        {
+          "nome": "A maior saudade",
+          "cifra": "I\t[C♯m | E]\nA\t[ E | B | D♯m |G♯m]\nPr\t[E | F♯| D♯m |G♯m]\nR\t[C♯m | E | B | F♯]\n\t[C♯m | E | B| %]\n\tSolo = intro",
+          "n": "27"
+        },
+        {
+          "nome": "Assunto delicado",
+          "cifra": "\nX\t[Em|D|Am|C]",
+          "n": "28"
+        },
+        {
+          "nome": "Bombonzinho",
+          "cifra": "i\t[B♭m | D♭| Fm| E♭]\na\t[B♭m | D♭| A♭ | E♭|\n\t|B♭m | D♭| Fm| E♭]\nr\t[E♭m| G♭| D♭| A♭]\ns\t[B♭m | D♭| A♭ | E♭|\n\t|B♭m | D♭| Fm| E♭]\nf\t(E♭m)\n\t[E♭m| G♭| D♭ | A♭|\n\t|E♭m| G♭| D♭ | A♭³| E♭m]",
+          "n": "29"
+        },
+        {
+          "nome": "Erro Gostoso",
+          "cifra": "i\t[E b]\na\t[E|%!|C♯m|%|A|%|E|\n\t|F♯m E/G♯|A a♯|%]\nb\t[E|E f|C♯m|%!|\n\t|A a♯|F♯m|B|%!] E A]",
+          "n": "30"
+        },
+        {
+          "nome": "Saudade da minha vida",
+          "cifra": "x\t[Cm|Fm|A♭|Gm]",
+          "n": "31"
+        },
+        {
+          "nome": "Seu Brilho Sumiu",
+          "cifra": "x\t[B|G♯m|D♯m|C♯]",
+          "n": "32"
+        },
+        {
+          "nome": "Duas Tres",
+          "cifra": "i\t[(Fm)|\n\t|Cm|B♭|Fm|A♭|\na\t[Cm|A♭|E♭|B♭]\n\t[Fm|A♭|Cm|B♭] A♭|%]\nr\t[Fm%|A♭%|Cm%|B♭%]\n\ti,a',r,f(...B♭!|Fm%)",
+          "n": "33"
+        },
+        {
+          "nome": "Por um minuto",
+          "cifra": "i\t|..bcfg[G!|%]\na\t[ G| Bm| C|%]\na'\t[G|%|D/G |  C/G]\nb\t[C|Am | D| %]\nr\t[G |Bm| Em| Bm| Am|%|D|%|\n\t¹|Am|Am7M|Am7|Am6| C| D|G]\n\t²|C|Bm|Em|%|C|D|G|%]\n\ta,b,r,\nr2\t[A |C♯m| F♯m| C♯m| Bm|%|E|%|\n\t¹|Bm|Bm7M|Bm7|Bm6| D| E|A]\n\t²|D|C♯m|F♯m|%|D|E|A|%]\nv\t[ A| C♯m| D|%]",
+          "n": "34"
+        },
+        {
+          "nome": "Marília (Te amo demais/Infiel)",
+          "cifra": "Te amo demais\ni\t[ (G♯)! | C♯! | D♯m | F♯ ]\na\t[ C♯ | G♯ | D♯m | A♯m ]\npr\t[ G♯ | D♯m | F♯ | C♯ ] F♯|% G♯!]\nr\t[ C♯ | G♯ | D♯m | F♯ ]\n\ti,a,pr,r,r' \n\t(^F♯ c♯ c g♯ c♯ c a♯ g♯! g♯!)\nf\t[C♯! F♯!| C♯]\n\nInfiel\ni\t[Am! G/B!| A/C♯! | C! D!| D/E!|\n\t|Am G/B| C/E B7♭9|\n\t|Em!|%| D!| %| Am! |%]\nr\t[Am%| Em%| D%| A| A!|\n\t|Am%| Em%| D!| ab A/C♯]\na\t[Em|C|D¹|Em]\npr\t[Am%| Em%| G%| D%] Am%| C%]\n\tr (Am! G!)\ns1\t[F7M| Dm| Am| G] G!]\n\nAmante não tem lar\ni2\t[C%|G%]\na\t[Am|F|C|G]\npr\t[Dm|F|C|G] Dm%| F |F! G!]\n\tr\ns2\t[C% | G%| Dm%| F%]\n\tpr,r,\ns3\t(F lídio! G!)\n\tr\nf\t[C!%]",
+          "n": "35"
+        },
+        {
+          "nome": "Xotes",
+          "cifra": "Esperando na janela\nia\t[ B% | E% ] A B | E] (Fº)\nr\t[F♯m| B | E| C♯m|\n\t|F♯m B| E AB |E Fº]\n\nMorango do nordeste\nis\t[C | G| Am| G] gag cbag\na\t[C | G| Dm| Am G]\na'\t[C | G]\n\nLa Belle de Jour\n\t[ C | Em | Am | Em| F| G]\n\nAnunciação\na\t[Am| G ]\nb\t[G| Em | F C]",
+          "n": "36"
+        },
+        {
+          "nome": "Haja Colírio",
+          "cifra": "I\t[C♯m | E | B | F♯]\nA\t[ E% | B% ]\nB\t[C♯m | E | B | F♯ |E |F♯]\nR\t[C♯m | E | B | F♯]",
+          "n": "37"
+        },
+        {
+          "nome": "Nem namorado nem ficante",
+          "cifra": "A\t[Bm | A | Em| G]\nB\t[Bm | F♯m | G|%] (G)\nR = A",
+          "n": "38"
+        },
+        {
+          "nome": "Ana Castela",
+          "cifra": "Boiadera\n\na\t[ Fm| C♯| G♯ | D♯]\nb\t[ A♯ | C♯| Fm| D♯] [C♯|D♯]\n\nPipoco\na\t[Cm%|A♭|B♭] [A♭|B♭]\nb\t[Cm| E♭| A♭| B♭]",
+          "n": "39"
+        },
+        {
+          "nome": "Ficha limpa G♯",
+          "cifra": "i\t[C♯|D♯]\na\t[G♯|C♯|G♯|C♯]\nb\t[A♯m|C♯|Fm|D♯|C♯|C♯m]\nr\t[C♯|D♯|Fm|C♯|A♯m|C♯m]\ns\t[Fm|C♯|D♯|f g g♯ c].b\n\tb,r,\nf\t[G♯|A♯m|C♯|a♯gfd♯ca♯cd♯|G♯]",
+          "n": "40"
+        },
+        {
+          "nome": "Tá cedo ou já pode B",
+          "cifra": "i\t[B|F♯|C♯m|E]\na\t[B|F♯|E|%]F♯]\nr\t[B|F♯|C♯m|E ]s\n\ta,r',s'\n\t:conv s,r's' e f",
+          "n": "41"
+        },
+        {
+          "nome": "Não me sufoca",
+          "cifra": "I\tz[ C ⁴F! | z. ]\na\t[ C% | G% | Am% | F !% ]\nb\t[ Dm% | Am% | B♭ | F | G!! ]\nR\t[ C !% | G% | Am% | F | G ]",
+          "n": "42"
+        },
+        {
+          "nome": "Faz amor comigo só hoje E",
+          "cifra": "a\t[E|B|C♯m|A]\nb\t[C♯m|A|E|B]",
+          "n": "43"
+        },
+        {
+          "nome": "Horizonte azul/programa de fds",
+          "cifra": "horizonte\ni\t[B♭|F|E♭|B♭]m\na\t[E♭|%|B♭|F|E♭|B♭|%]\nr\t[F|E♭|B♭|%] (contras)\nf\t[G]\n\nprograma fds\ni\t[C|G|Am|Em|F|G|C|G% g a b ]\n\t[C|F|C%%|G|\n\t|Am|Em|F|C|D%|G]\na\t[Am|Em|F|C|\n\t|Am|Em|F|G%] (contra G)\nr\t[C|G|Am|Em|F|D|G|%| (contra G)\n\t|C|G|Am|Em|F|G]\nvmp\t[C|Am|F|G]",
+          "n": "44"
+        },
+        {
+          "nome": "Deus me livre / morro de saudade",
+          "cifra": "deus me livre\ni\t[E|B|C♯m|G♯m|A F♯m|B|\n\t|E|B|C♯m|G♯m|A B|E|%]\nr\t[B|C♯m|A B|E|\n\t|B|C♯m|A|B]\npt\t[C|D|E|FG]\n\nmorro de saudade\na\t[C|G|F|G] (contras)\n\t[Dm|Am|G|%|\n\t|Dm|Am|B♭|G] (contra 1e4 refrão)\nr\t[C|% |Dm|G|\n\t|C|Am|Dm|G] (contras no C|%|Dm)\nf\t[C|Am|Dm|G|C]",
+          "n": "45"
+        },
+        {
+          "nome": "Na hora de amar / te amar foi ilusão",
+          "cifra": "na hora de amar\ni\t[Dm Gm|C]\nr'\t[C%|G%|Am|F|Dm F|G|Am%]\na\t[Dm F|C B♭|Dm F|C|\n\t[Dm F|C G |B♭ |A7]\nr\t[D%|A%|Bm|G|Em G|A]\n\nte amar foi ilusão\ni\t[C|G|Am|%|Dm|F G|C|\n\t|F|%|C|%|G|\n\t|F G|C .fed|G]\nr\t[C%|G%|F%|C|G] (contras no G)",
+          "n": "46"
+        },
+        {
+          "nome": "Pout Sert. Anos 90",
+          "cifra": "Dormi\na\t[D%|A%|G%|D|A] (B!)\n\nela é demais\na\t[E|C♯m|A|B] C!%]\n\ncara de pau\na\t[G!%|D%|C%|G|D|\n\t|G|Dm G|C|%|D Em|Am D|G|%]\n\nconvite\nx\t[C%|F%|Dm|G|C|G|\n\t|C|C7|F|.Fm!|C%|G%|\n\t|F|G|C|Am|Dm|G!%] A!]\n\nBoca pra fora\na\t[D|A/C♯|Bm|F♯m|G¹|Em|A|%]²A]\na'\t[D|F♯m|G|A] Gm|%|D]",
+          "n": "47"
+        },
+        {
+          "nome": "Leilão / Vou doar meu coração",
+          "cifra": "leilão\n\ni\t[E%|B%|A%|E%|\n\t|B%|G♯m C♯m|A%|B%]\na\t[F♯m|A|E|%]\nr\t[B%|A%|E%|B%] B|A|E] \n\t(DE|A)\n\nvou doar meu coração\n\ni\t[A%|E%|D%|A%] (A7)\na\t[D%|A%|D%|E|E f♯ g g♯]\nr\t[E|F♯m|D|A]\n\t(D E|A dc♯ba|A)",
+          "n": "48"
+        },
+        {
+          "nome": "Logo eu / A rosa e o Beija Flor",
+          "cifra": "logo eu\n\ni\t[F♯m|A|E|%]\na\t[E|A|C♯m B|A]\nr\t[F♯m|A|E|B]\n\t(b a g♯ e f♯)\n\na rosa e o beija flor\n\ni\t[F♯m|D|A|E]\na\t[F♯m|D|%|F♯m] (E)\ni\t[F♯m|D|A|E]",
+          "n": "49"
+        },
+        {
+          "nome": "É o amor G/pense em mim G/ timidez C",
+          "cifra": "é o amor\ni \t[C|G|D|G|D|G]\na \t[G|D|Am|D|%|G Am D]\nb \t[G|%|G7|C FC|% C/E|\n\t|G/B|Em|Am D|G G7|\n\t|C C/E|G/B Em|Am D|G]\nr \t[C FC |G|Em|D|Am|D|G]\n\npense em mim\n\ni \t[G|Em|C|D]\na \t[G|Em|G|Em]\nr\t[C|D |G|Em]\nb \t[G|Em|C|G|Em|\n\t|C|D |G|Em|C|D|G]",
+          "n": "50"
+        },
+        {
+          "nome": "Evidências C",
+          "cifra": "",
+          "n": "51"
+        },
+        {
+          "nome": "Por pourri guaranias",
+          "cifra": "boate azul \tEm\ni\t[Em|A |D | G|\n\t|Em|F♯|Bm|B7]\na\t[Bm|A|G|F♯]\n\t[Em|Bm |F♯|Bm](G F♯)\nr\t[F♯|E|B|%]\n\nTelefone mudo \tG\na\t[C|G|D|G]\nb\t[D|%|C|G|%|D|C|G]\n\nFio de Cabelo \tE\ni\t[B|E|B|E]\na\t[E B|E|%|A|\n\t|% B|E C♯m|F♯m B|E]\nr\t[B|E|B|A B|E]\n\nAinda Ontem\tC\ni\t[C Am|Dm|G|C|\n\t|C|F |G |C]\na\t[C Am|Dm|G|C]\nr\t[C |%|G |%]\nf\t.(F|C|G|C g|C]\n\nSaudades de minha terra\tD\ni\t[A|D|A.. |D]\na\t[D|A|%|GA|D]\nb\t[G|E A|% |D|\n\t|G|A|%|D]",
+          "n": "52"
+        },
+        {
+          "nome": "Maus bocados C",
+          "cifra": "a\t[C|F|Dm|G]\npr\t[F|G|F/A F|G]",
+          "n": "53"
+        },
+        {
+          "nome": "Jorge e Mateus (pot pourri)",
+          "cifra": "Querendo te amar\n\na\t[A|B|D|Dm]\n\t|F♯m|B|D|E]\nr\t[A|E|F♯m|D]\n\t|F♯m|B|D|Bm D|E|A]\n\nSeu astral D\n\na\t[G|D|G|Bm]\np\t[G|Bm|G|A]\nr\t[G|Bm|A|%]\n\nAmo noite e dia C♯m\n\nx\t[C♯m|A||E|B]\n\nvocê não sabe oq é amor\n\ni\t[F♯|C♯|B|%]\np\t[D♯m|C♯|B]\nr\t[F♯|C♯|D♯m|B]-p",
+          "n": "54"
+        },
+        {
+          "nome": "Sorocaba Pout",
+          "cifra": "E daí D\n\na\t[D |Bm|G|A]\np\t[Em|A]\n\nÉ tenso D\n\na\t[D |A|Em|G]\np\t[Em|Bm|A|G|A]\nr\t[D |A|Bm|G]\n\nDa cor do pecado A\n\nx\t[A|E|F♯m|D]\n\nPode chorar C\n\na\t[C G|Am F| C G|G]\nb\t[F|Am|F|G]\nr\t[C|G|Am|F|Dm|Am|G]\n\nChora me liga C\n\na\t[C|G|Am|F]\npr\t[Dm|F|C G|Am|\n\t|Dm|F|Dm F|G]",
+          "n": "55"
+        },
+        {
+          "nome": "Chove, chove + flor + só falta você",
+          "cifra": "chove chove\ni\t[B|E F♯|B G♯m|E F♯] B F♯]\na \t[B F♯|C♯m E]\nb\t[G♯m|C♯m|G♯m|E F♯]\nr\t[B|E F♯|B G♯m|E F♯] B F♯]\nf\t[B F♯|E]\n\nflor\ni\t[G♯m|E|B|F♯]\nr\t[B|F♯|C♯m|E F♯]\n\nsó falta você \na\t[B|F♯|G♯m|E]\npr\t[C♯m |E|F♯|%]\n\ta\nf\t[B|F♯|C♯m|E]",
+          "n": "56"
+        },
+        {
+          "nome": "Improvisos",
+          "cifra": "Se eu pedir cê volta\n\na\t[G|D|G|D|G|Bm|G|A|\n\t|D|Bm|G Em|A]\nr\t[D|Bm|E G|A]\n\n\nCoração está em pedaços C\n\na\t[C|Dm|G|C]\n\t|D|G|D|G F|C]\nr\t[G|FG|C|G|F|C|\n\t|G|FG|C|G|F|G|C]\n\nfica comigo\ni\t[D%|% Bm|A|G|D| % Bm|A]\na\t[F♯|Bm G|D A|G]\nr\t[D|A|G|D]\n\t[D|A|F♯|Bm .F♯m|G|D|A|D]\n\nAs mina pira\n\nI\t[Em! D C!|% D]\nA\t[Em|C|G|D]\nB\t[C|D|G D/F♯| Em D]\n\t| C%|D%||Am C| D]",
+          "n": "57"
+        },
+        {
+          "nome": "Late Coração Cachorro",
+          "cifra": "i\t[ C| %| Am| %| F| Fm ]\na\t[:Am  | G |F:]\nref\t[:C|% g|Am|% g|F|% g:]",
+          "n": "58"
+        },
+        {
+          "nome": "Esquema preferido Dm",
+          "cifra": "x\t[Dm|B♭|F|C] (B♭ C)",
+          "n": "59"
+        },
+        {
+          "nome": "Rolê",
+          "cifra": "a\t[Gm|B♭|Dm|C]",
+          "n": "60"
+        },
+        {
+          "nome": "Malvada",
+          "cifra": "a\t[riff Fm](Gm A♭)|gggg g♯ g| d♯d♯d♯ f d♯|\nx\t[Cm] [Cm|B♭]\nf ab g eb c!",
+          "n": "61"
+        },
+        {
+          "nome": "Pedaço de pecado Dm",
+          "cifra": "x\t[Dm|C|Gm|B♭] (C)",
+          "n": "62"
+        },
+        {
+          "nome": "Passa tempo cm capo",
+          "cifra": "x\t[Cm|E♭|Gm(B♭)|F]soloccc d c~ a♯ ccc ...D♯ Gm",
+          "n": "63"
+        },
+        {
+          "nome": "Baby me atende Bm (capô)",
+          "cifra": "x\t[Bm|Em|G|F♯(m)]",
+          "n": "64"
+        },
+        {
+          "nome": "Meia noite Em",
+          "cifra": "x\t[Em|G|Bm D|A]",
+          "n": "65"
+        },
+        {
+          "nome": "Recairei B♭",
+          "cifra": "a\t[E♭|B♭|F|%]\nb\t[E♭|B♭|F|Gm|\n\t[E♭|B♭|F|% |\nr\t[Cm|E♭|B♭|F]\nfim\t[B♭]",
+          "n": "66"
+        },
+        {
+          "nome": "Putariazinha",
+          "cifra": "a\t[Bm]  [Bm|A]",
+          "n": "67"
+        },
+        {
+          "nome": "Ameaça",
+          "cifra": "a\t[Cm|A♭|E♭|B♭]",
+          "n": "68"
+        },
+        {
+          "nome": "Toma toma vapo vapo",
+          "cifra": "x    [Em|C|(B7)]",
+          "n": "69"
+        },
+        {
+          "nome": "Volta comigo BB C♯m",
+          "cifra": "x\t[A|C♯m|G♯m|B]",
+          "n": "70"
+        },
+        {
+          "nome": "Revoada no colchão",
+          "cifra": "a\t[Fm|C♯|G♯|D♯]\npr\t|A♯m|C♯|Fm|D♯|\n\t|A♯m|C♯|D♯|>.A",
+          "n": "71"
+        },
+        {
+          "nome": "Carnaval",
+          "cifra": "taj mahal | paístropical\ni\t[f♯ a b c♯ Esus7]\na\t[Bm|C♯m|F♯m|%]\n\t[e d b c♯ F♯m] conv f♯, a conv f♯\n\npaís tropical\ni\tconv G, conv c b G\na\t[G |C D][Em D|C D] conv d\nb\t[C7|%|G|%  ] conv d\nf\t[g!| cd| G7]\n\nPARARÁ | ARERÊ\nx\t[C|Am|F (Dm)| G]\n\narere\na\t[C C/E| F G]\nb\t[F|G|F|G!]\nb'\t[F|%|G|%!|\n\nEVA (c) \ni\t[Dm]...\n\nCELEBRAR\ni\t[D!|E!|F♯m]\n\t[D E|C♯m F♯m]\n\t|D A/C♯ B A| E]\na\t[A|E|F♯m|D]\nb\t[F♯m|D|E|C♯m|F♯m|D|E!]\nr\t[D|E|C♯m|F♯m]\n\nLEVA EU | SUPER FANTÁSTICO\ni\t[E|B|A]\nr\t[E|A|F♯m|B|E]\na\t[B|C♯m|B|E ef♯ f♯g gg♯g♯|\n\t|B|C♯m|ab E!] D A/C♯ |B],r\n\nsuper fantástico\ni\t[E7 ee edb ee db]\na\t[E|C♯m c♯ d♯ f |\n\t|F♯m F♯m7M|B b c♯ d♯|E]\npr\t[A|B|G♯m|C♯m| A| B7!]\nr\t[E|C♯m|G♯m|B]\n\t[A|B|G♯m|C♯m|A| B7!] (E!)\n\nPOUT TIM MAIA\ndescobridor\na\t[Gm|C C/F]\nr \t[B♭ Fm | E♭ Cm]\n\nnão qro dinheiro\na\t[A|F♯m|A|F♯m|¹E]D Dm|E]\nr\t[D E9/D|C♯m F♯m |B E |A!]\n\nPIPOCA | QUERO CHICLETE\ni\t[A|Bm|G A|Bm]\na\t[Bm A|Bm|Em F♯m|Bm]\nb\t[A|Bm|G A (F♯) |Bm] (A)\nr\t[Bm A|Bm|Em F♯m|Bm]\nb'\t\nc\t[Em|Bm|G F♯m|Bm|\n\t[Em|Bm|G |f♯ g F♯7]\n\nquero chic\t\ni\t[A G| %| %|A]\na\t[E D |A] A F♯m|B|E]\nr\t[A|D|E|%]\ns\t[A|D|\n\nMEU ERRO | UMA BRASILEIRA\nmeu erro\ni\t[A|E|D|% (Dm)]\na\t[A|C♯m|D|Dm] r\nb\t[C♯m|F♯m|D|Dm]\n\numa br\na\t[A E/G♯|F♯m C♯m|\n\t||F♯m C♯m|DA/C♯|Bm E]\npr\t[D|E Fº|F♯m F♯m/E| F♯m6/E♭]\nr\t[D E|D E|D C♯m|F♯m (lick]\n\nVira Vira\n\t[E B] A B E [B|E]\n\nPELADOS\na\t[D|Bm|G|A] (a g\nb\t[F♯5|G5 a g] A|%]\n\nTREM DAS ONZE\ni\t[Gm A♭°|Dm/A|\n\t|B♭! A7| Dm| A7b13]\na\t[Dm|%|A7 D7/F♯!|Gm |\n\t|Dm|B♭|A7|B♭ A7|Dm]",
+          "n": "72"
+        },
+        {
+          "nome": "Voa, beija flor",
+          "cifra": "a\t[A|E|Bm|D E]\npr\t[Bm|D E]",
+          "n": "73"
+        },
+        {
+          "nome": "Atrasadinha",
+          "cifra": "i\t[C|D|Em]\na\t[C|D|Bm|Em] (C|D)\no\t[Am|Cm][G%|C%]",
+          "n": "74"
+        },
+        {
+          "nome": "Não to valendo nada",
+          "cifra": "a\t[C♯m|A|E|B]\nb\t[F♯m|% E/G♯|A|E|B]",
+          "n": "75"
+        },
+        {
+          "nome": "Borboletas",
+          "cifra": "i\t(Bm D)\n\t[Bm%|A%|%|G|A%]\na\t[Bm|D|A|Bm]\nb\t[Em|G|D|A]\nr\t[G|D|A|Bm]\ns\t[Bm|D|A|F♯|G|A|Bm]",
+          "n": "76"
+        },
+        {
+          "nome": "Casamento",
+          "cifra": "O nosso santo bateu\na\t[C | Em | F | C ]\nPr\t[ F | G | C | Dm F | G!]\nR\t[ F | G | C | F ]\nFim\t[riff G F penta | f e d a g e C!]\n\nVocê vai ver\nI\t[C Dm |A B♭ |F C |F C ]\na\t[F  C/E |Dm Dm/C |B♭ Am | \n\t|Gm Gm/F |C/E A |Dm B♭ |\n\t|F C |F C ]\nR\t[F C/E |Dm F/A |B♭ F |C % ]\n\n\nVocê vai ver C\nI \t[G Am |E F |C G |C G ]\na\t[C G/B |Am Am/G |F Em |\n\t|Dm Dm/C |G/B E|\n\t|Am F |C G |C G ]\nR \t[C G/B|Am C/E|F C |G % ]\n\nNocaute\na\t[ Am | C | Am C ]\nb\t[ Dm |F G |Dm |\n\t|F G |F G |F G ]\nR\t[ Dm | F | C  | G ]",
+          "n": "77"
+        },
+        {
+          "nome": "ZINE",
+          "cifra": "primeiros erros\n\nig\t[D|E/D]\ni\t[D|D/C♯|G6/B|%]\na\t[D%%|Bm%|'A].G7M]\nb\t[G6%|Em%%]\n\ti,a.,b,ig,\n\ta.,b3x,i,ig\n\nana julia\n\ni\t[E|C♯m]\na\t[E|C♯m|G♯m|A B]\nb\t[C♯m|G♯m|A|B]\nr\t[E|A|B%]\ns\t[E|A|B%]\n\t[C♯m|G♯m|A|E](B)\npr\t[C♯m|G♯m|A|E](B)\n\nserá\n\na\t[C|G|Am|F]\n\t|Am|Em|F|G]\np\t(CFG)\nr\t[G%|Dm%]Am|F|G],p\nf\t[C%|G/B%|Gm/B♭%|Dm%]\n\t[GF]",
+          "n": "78"
+        },
+        {
+          "nome": "Tema de Encerramento",
+          "cifra": "",
+          "n": "79"
+        }
+      ]
+    },
+    {
+      "bloco": "Audiovisual",
+      "songs": [
+        {
+          "nome": "era oq faltava (B)",
+          "cifra": "x\t[B%|F#%|C#m% (B/D#)|E%]\n\ni,v1 violao\nbass pr padrao bumbo bond\nsubida pro refrao E(bc#bf#)\nr1 arrocha B/D#!\nr2 vaneira B!\ns1 e v1 normais\nr3 E(bc# bbb!)\nr4 vaneira\nf  E(bc#bf#)B",
+          "n": "1"
+        },
+        {
+          "nome": "motivos (G)",
+          "cifra": "i\t[Am|C|Em|D]\na\t[i] C| D!]\nr\t[Em|C|G|D] C D|Em!]\ns\ti, cb Am(a)\nr,r~,r(Em! d! |C)\nr4\t[C|D|Em|Bm|C|D!]\nf\tD!|(gf#e! Em!)",
+          "n": "2"
+        },
+        {
+          "nome": "seu doutor (Ab)",
+          "cifra": "[Ab%]\na\t[Ab%|Eb%|Db%|Ab|Eb|\n\t|Ab%|Eb%|Db|Eb|Ab!%]\nb\t[Fm%|Cm%|Db%|Ab% ab g|\n\t|Fm%|Cm%|Db|Eb|Ab%]\nr\t[Ab%|Fm%|Db|Bb|Eb%]\np\t|Bbm |Eb|Ab|Ab! Eb/G!]\ns\t[~Fm%|Ab!%]\n\tb,r\np2\t|Bbm |Eb|Bbm|Ab|\n\t(eb³ab f eb c eb|ab bb c)\n\t|Db|Eb|%!]\n\tdb c |bb bbceb|Ab]",
+          "n": "3"
+        },
+        {
+          "nome": "cheiro de shampoo(E) temporal de amor(F)",
+          "cifra": "CS\ni\t[E |A]\na\t[E|C#m|A|B] B|BCº]\nb\t[C#m|G#m|A|B|E|(B)E B/D#]\nr\t[E|B (G#)|A|B]\np \t[Bb C]\n\ntemporal\ni\t[F C/E|Dm C Bb]\na\t[Bb C|A Dm C|Bb C| Bb C F]\nr\t[F C/E(A)|Dm Bb| F C|F C]\nf\t[Bb F/A Gm|F]",
+          "n": "4"
+        },
+        {
+          "nome": "Homem não chora(F) locutor(G)",
+          "cifra": "homem não chora\ni\ta\na\t[Dm|A#|F|C]\nr\t[Gm|C|F C/E|Dm]\n\t[A#|C|Dm|%(D7)]\n\nlocutor\ni\t[G D|C]\na\t[G D|C (D)]\nb\t[Bm%|Em%|C%|D%]\nr\t[G D/F#|Dm/F E7|Am Am7M|C D] G| C D]\nf\t[G Bm|C D]G|C D|G]",
+          "n": "5"
+        },
+        {
+          "nome": "Nem Dormindo Consigo Te Esquecer (D) Vou Chorar(C)",
+          "cifra": "Nem Dormindo Consigo Te Esquecer\ni\t[D A/C#|Bm|Em G| A]\na\t[D F#m/C#|Bm|Em E/G#|A A#º|\n\t|Bm Bm7M|Bm/A|E E/G#|A]\nr\t[D|%|D A#º|Em|\n\t|F#7|Bm|E|A|\n\t[Em A|D] G Gm|\n\t|D A/C#|Bm A|E A|D]\nt\t|gf#dabd|C%%|\n\nvou chorar\na\t[C%|F%|G|!%|C|FG]\nb\t[F%|C%|G%|C%|FG]\nr\t[C|F|C|F|C|Am|G%|\n\t[C|F|C|F|C|G!|%|\nf\t[C|F|C|F|C]",
+          "n": "6"
+        },
+        {
+          "nome": "Coraçao Sertanejo (G) Taslima(G) Vc me Vira a Cabeca(G)",
+          "cifra": "coração sertanejo\na\t[G%|G%]\n\t[Am|D|Am|D]\nr\t[C%|G%|D|C|G%]\nf\t|D|C!|G%%|C!G/B! Am]\ntalisma\nvira cabeça",
+          "n": "7"
+        },
+        {
+          "nome": "Amor de Carnaval(D) Voce Virou Saudade(E) Leao Domado(G)",
+          "cifra": "amor de carnaval\na\t[D|(%)Em|A|D]\nr\t[G|A|D|%] Bm]\n\tsobe 1T (a)\n\nvoce virou saudade\na\t[E%%%|A%%%] E]\nr\t[E%|A%%%|E%|B%|E!%]\nf\tE! gfeb| D7]\n\nleao domado\ni\t[D7|Gm|D7|Gm|%]\na\t[Gm%|Cm%|F%|Bb|D7|\n\t|Gm%|Cm%|D7%|G!|gabcbagD]\nb\t[D%|G%|D%|G%]!\nr\t[D%|G%|D|C|G%!]\nf\t[Gm%|Cm|D|Gm!!!]",
+          "n": "8"
+        },
+        {
+          "nome": "O Mundo é Tão Pequeno(D) Cabelo Cor de Ouro (B) Sufoco(D)",
+          "cifra": "O Mundo é Tão Pequeno\ni\t|D%%|Bm%|baG!|gf#Em!]\na\t[D%% |F#m%|G|A|\n\t|D|Bm|G%|Em%|G|A%|D!]\nr\t[D% |Bm%|G Em| A%~|\n\t|D%%|Bm%|G|A|D|G|A|G F#!]\n\ncabelo cor de ouro\ni\t[B|F#|C#m|E ~!]\n\tbc#d#e d#b c#(d#)\na\t[B|F#|G#m|E] B]\n\ted#c#ba#g#f#\nb\t[C#m|E|B  |%|\n\t|C#m|E|F#!|%|\nr\t[B|F#|C#m|E (F#)]\nf\t[B!!!|! ! ! !|!]\n\nsufoco\ni\t[G!|A!|%]\nr'\t[D|A|Bm|A|\n\t|D|A|G |A|\ns\t[D|A|Bm|G|\n\t|D|A|G|GA!]\na\t[D|A|Bm|G (A gf#)]\nb\t[Em|A|D|F#|\n\t|Bm|G|Em|A%|\nr\t[D|A|Bm|A|\n\t|D|A|G |A]\n\tA#| sobe1T\nf\t|G#|A#|D#|A#|\n\t|G# D#/G|Fm|f!D#!]",
+          "n": "9"
+        },
+        {
+          "nome": "Pra Mudar Minha Vida(E) A Ferro e Fogo(E) Inevitável(C) Agora Vai(C)",
+          "cifra": "Pra Mudar Minha Vida\ni\t[e f#g#b g#f#e|\n\t|F#m f#g#|A%|E%|\na\t[A%|E%|B AB|E%!]\nr\t[A%|B%|E%|B%|A%|E%!]\n\t|ef#g#b g#f# e E!]\n\nA Ferro e Fogo\na\t[F#m|A|E|%|\n\t|F#m|A|B|E|\ns\t[ag#f#e f#g#|ag#f#e c#b|E]\n\ninevitavel\ni\t[C|G|F|C|G|Bb|F|G%!]\nr\t[C|Em|F G(Fm)] CG]\nf\t[C|G|F Fm|C G~]\n\nagora vai\nr\t[C|G|Am|Am/G|F|Dm G~]\nf\t[G#|A#|Cm (C)]",
+          "n": "10"
+        },
+        {
+          "nome": "Só hoje (A) Facas(D) A força do amor (E)",
+          "cifra": "só hoje \ni\t[A%]\na\t[A|E/G#|F#m|D]\nb\t[Bm|E|Bm|E](a1x) DE<]\nr\t[A|Bm|E|A (E)]\n\nfacas\ni\t[D|A|D]\na\t[D%|A%]D%]\nr\t[D|A|F#m|C#m|Bm E|A]\nf\t[Bm E|D|A|D A/C# A7sus B]\n\na força do amor\ni\t[A|E|A c# ba]\na\t[A|E|B|%|E e f# g# c#]\nb\t[B|A|B|C#m|A|F#|B|E]\nf\t[D A|E|\n\t[D|A|E] A|E]",
+          "n": "11"
+        },
+        {
+          "nome": "Um Degrau da Escada(D) Deixa(G) Nos Bares da Cidade",
+          "cifra": "Um Degrau da Escada\ni\t[Bm A/C#|D|Em G!]\na\t[Bm A/C#|D|Em G|Bm A]\nb\t[Em|G|Bm|A]\nr\t[D|A A#º|Bm a|GA]\n\nDeixa\ni\t|C G|Am D]\na\t[G|D|C|G (F!Em!)] D|C]\nr\t[G|D|C|Cm~]cdebf ebfg\nf\t[G|D|C]\n\nNos Bares da cidade\ni\t|DG|D]\na\t[D G/D|%%|A|G|D |A GA |D]\nb\t[D G/D|% |D7|G%|D|A GA|D]\nr\t[D|A%|D A|D|D7 G|\n\t[G|D|A|D]G|\nf\t[D|G gf#e|D!]",
+          "n": "12"
+        }
+      ]
+    },
+    {
+      "bloco": "Tributo",
+      "songs": [
+        {
+          "nome": "Abertura",
+          "cifra": "",
+          "n": "1"
+        },
+        {
+          "nome": "Pot pourri chove",
+          "cifra": "",
+          "n": "2"
+        },
+        {
+          "nome": "Vidro fumê",
+          "cifra": "i\t[ aa#|Bm!|Bm!!!]\na\t[D%|D7M%|A%| G% |\n\t|D%|A%|G|D |G!A!|\nb\t[D%|D7M%|A%| G% |\n\t|G!A!|Bm|Bm! A/C#!|\n\t|A|G |GA|D%]\nr\t[F#%|Bm%]\n\t|Em |F#|Bm|\n\t|dA/C# dBm A|\n\t|G!|F#!|Bm|G!A!]\n\ta,b,r,r\nf\t[Bm|A|G|F#%|aa#|Bm]",
+          "n": "3"
+        },
+        {
+          "nome": "Paradigmas",
+          "cifra": "a\t[C♯ |G♯ |D♯m|F♯]\nb\t[D♯m|A♯m|C♯ |G♯]",
+          "n": "4"
+        },
+        {
+          "nome": "Na conta da loucura",
+          "cifra": "i\t[Bm|%A/C#|D%|E%|G%]\na\t[Bm%|D%|E%|G%] A]\nb\t[G|A|Bm%|G%|A%]\nr\t[G|A|Bm|%]\n\ti,b,r",
+          "n": "5"
+        },
+        {
+          "nome": "Trânsito parado (vera)",
+          "cifra": "i\tsó entra no 2c\na\t[C|G|F|G]\nb\t[F|C|G|% (F)] G!]\nr\t(a)(Am G/B)\n\t(A)+D",
+          "n": "6"
+        },
+        {
+          "nome": "Pot pourri jxm (querendo te amar)",
+          "cifra": "",
+          "n": "7"
+        },
+        {
+          "nome": "Fruto especial",
+          "cifra": "i\t[F#m|B|E| C#m  |\n\t|F#m|B|E|E C#7 ]\na\t[F#m|B|G#m|C#m |\n\t|F#m|B|E  |E F°]",
+          "n": "8"
+        },
+        {
+          "nome": "Molhando volante",
+          "cifra": "a\t[Eb|%|Gm|F|Eb]\nb\t[Bb%|F%|Cm%|Eb%]\n\ts(F)\n\ta",
+          "n": "9"
+        },
+        {
+          "nome": "Paredes",
+          "cifra": "i\t[Ab]\na\t[Ab Eb|Fm Db (Eb)]Eb]\nb\t[Db!|Fm!|Ab|Eb|Db!|Eb!]\nr\t[Db|Ab|Eb|Fm|\n\t[Db|Ab|Cm|Fm] Fm]\ns\t[Db|Ab|Cm|Fm Eb/G|Ab|\n\ta,b",
+          "n": "10"
+        },
+        {
+          "nome": "Apaziguar",
+          "cifra": "i\t[D|Em|D C|G ! a b cd#e]\n\t(def#gabcdG)\na\t[G|%  |D|%|%|%|G|%|\n\t|C|C D|G|D|%|%|G!|\nr\t[D|Em|C D|G]\nf\t[C|G|C|G]",
+          "n": "11"
+        },
+        {
+          "nome": "Tem nada haver / te cuida coração",
+          "cifra": "tem nada a ver\n\ni\t[E|G#|A|E|F#|%|B|%]\na\t[E%|B%|A%|B%]\nb\t[C#m|G#|C#m|E|A|B|E|B! (E7)]\nr\t[A|B (G#)|C#m|E7|A|B|E|E7]\n\nte cuida coração\ni\t[ag# f#e]\na\t[E%|B%|A%|E%]\nb\t[G#|C#m|G#|C#m|\n\t|F#|B|F#|B#]\np\t[A|B|C#m!|A!|%|\n\t[E|%|B|E] E]\nr\t[B|A|E|%|B|%|E|%]\n\t[e f#g g#]\n\tb,p,r",
+          "n": "12"
+        },
+        {
+          "nome": "Se eu pedir ce volta",
+          "cifra": "i\t[G%|Bm%|E|G|A%]\na\t[G|D|G|D|G|Em|G|A]\nb\t[D%|Bm%|G|Em|A%]\n\t[G%|Bm%|E|G|A%|\n\t|G%|Bm%|E|A|D%]\ns\t(i)\nf\t[G|D|D7M]",
+          "n": "13"
+        },
+        {
+          "nome": "Te amar foi ilusão/ inevitável",
+          "cifra": "Te amar foi ilusão\ni\t[G|%|F|%|C|F|G|\na\t[C%|G%|F%  |C  |G|\n\t|F% |C%|G FG|F G|C FeAm|Gabc]\nr\t[C%!|G%|F%|C AmeAm|G a bc|\n\t[C%!|G%|FF!|G|C G]\n\t\ninevitavel\n\ni\t[CG|F]G]\na\t[C%|F%]\n\t|G|F|C Bb|F G|\n\t[C%|F%]\n\t|C G/B|Am Em|F Bb!|F|G|F]\nr\t[C|Em|F G (Fm!)] C G]\n\t[F |F/A A# C!]",
+          "n": "14"
+        },
+        {
+          "nome": "Pot pourri logo eu",
+          "cifra": "",
+          "n": "15"
+        },
+        {
+          "nome": "Pot pourri vaneira BxM",
+          "cifra": "credo em cruz\ni\t[aba!|F#|B|F#] F#!]\na\t[B   |%     |F# eF#! | % |\n\t|C#m |C#m F#|B F#/A#!|B  |\n\t|B   |B7    |E]\n\t[E|B|F#|B7]\n\t|E|B|F#!]\n\npra la q eu vou\n\ni\t[B/D#! E | F# E  |\n\t|B E \t | F#!!  ]\na\t[B!  !   |B! B G!|\n\t|F# eF#! | F# %  |\n\t|B%%|F#%%|  B7   ]\nr\t[E|B|F#|B7]\n\t|E|B|F#!|efF#!|G*]\n\npescar q nada\n\ni\t[C|G|C|G]\na\t[C%|G%]\n\t(g! g! g~~C!)\nr\t[G%|C%] cc# D!]\nr\t[A!%|D!%]\n\t[d a# f d# d a c# D!]",
+          "n": "16"
+        },
+        {
+          "nome": "Pode chorar / chora me liga",
+          "cifra": "",
+          "n": "17"
+        },
+        {
+          "nome": "Bijuteria (vera)",
+          "cifra": "i\t[Am]\na\t[Am   |Am/G|Dm|      Dm/C    |\n\t|Bm7b5|E7  |Am|Bm7b5 D E (A7)]\nb\t[Dm|G|C|F|Bm7b5|E|Am|A7]\nr\t[dobra]\nf\t[Bm7b5|E9#|Am|%]",
+          "n": "18"
+        },
+        {
+          "nome": "Passou da conta / por um gole a mais (vera)",
+          "cifra": "passou da conta\na\t[D%|A%|E|D (E)|A]\nr\t[A|E|D|A|\n\t|E|D|A E|A] (Bm E|A)\ns\t[C G|D|C G|E]\n\npor um gole a mais\n\ni\t[G G4]\na\t[G%|D%|C%|G% (B)\nr\t[E A|E|B |%|\n\t|A|%|E|B A!]\ns\t[G!|D|C|G F! D/F#! (Cm)|G]\nf\t[G! B!|E]",
+          "n": "19"
+        },
+        {
+          "nome": "A hora é agora (vera)",
+          "cifra": "a hora é agora\n\na\t[Cm|Eb|Bb|F]\n\t|Cm|%|Eb|%|Cm|Eb|F%]\nr\t|Bb|Eb|Gm|F|Eb7M|%]\n\t|Cm|Eb|F]\n\nte assumi pro brasil\ni\td~a~e~[D|E|F#m|E]\na\t[A|D|F#m|E] D%|E|]\nr\t[D|E|F#m|E]",
+          "n": "20"
+        },
+        {
+          "nome": "Dormi na praça (vera)",
+          "cifra": "",
+          "n": "21"
+        },
+        {
+          "nome": "Por um minuto (forró)",
+          "cifra": "",
+          "n": "22"
+        },
+        {
+          "nome": "Fazer pirraça",
+          "cifra": "i\t[ef#g#a bc#b c#d#|E!!!]\n\t[A B|E][e~a a~e]e~b]\na\t[E|C#m|A|B]\nb\t[G#m|C#m] [A|B]E]\nr\t[A B|E]G#m|C#m|A|B|E]\n\t|G#m|C#m|A|B|E]\n\ti",
+          "n": "23"
+        },
+        {
+          "nome": "Choram as rosas",
+          "cifra": "",
+          "n": "24"
+        },
+        {
+          "nome": "Pra sempre com você",
+          "cifra": "",
+          "n": "25"
+        },
+        {
+          "nome": "Pot pourri guaranis",
+          "cifra": "",
+          "n": "26"
+        },
+        {
+          "nome": "Pot pourri Zezé",
+          "cifra": "",
+          "n": "27"
+        },
+        {
+          "nome": "Menina veneno",
+          "cifra": "",
+          "n": "28"
+        },
+        {
+          "nome": "Pot pourri Gustavo Lima",
+          "cifra": "",
+          "n": "29"
+        },
+        {
+          "nome": "Tema final",
+          "cifra": "",
+          "n": "30"
+        }
+      ]
+    },
+    {
+      "bloco": "Casamento 23/08",
+      "songs": [
+        {
+          "nome": "ABERTURA",
+          "cifra": "",
+          "n": "1"
+        },
+        {
+          "nome": "BOMBONZINHO / ASSUNTO DELICADO",
+          "cifra": "bombomzin\ni\t[B♭m | D♭| Fm| E♭]\na\t[B♭m | D♭| A♭ | E♭|\n|B♭m | D♭| Fm| E♭]\nr\t[E♭m| G♭| D♭| A♭]\ns\t[B♭m | D♭| A♭ | E♭|\n|B♭m | D♭| Fm| E♭]\nf\t(E♭m)\n[E♭m| G♭| D♭ | A♭|\n|E♭m| G♭| D♭ | A♭³| E♭m]\n\nassunto\nX\t[Em|D|Am|C]",
+          "n": "2"
+        },
+        {
+          "nome": "ARRANHÃO",
+          "cifra": "",
+          "n": "3"
+        },
+        {
+          "nome": "ERRO GOSTOSO / LOGO EU / A ROSA E O BEIJA-FLOR / PROPAGANDA",
+          "cifra": "",
+          "n": "4"
+        },
+        {
+          "nome": "PRA SEMPRE COM VOCE",
+          "cifra": "",
+          "n": "5"
+        },
+        {
+          "nome": "ESCRITO NAS ESTRELAS / EU SEI DE COR / INFIEL",
+          "cifra": "",
+          "n": "6"
+        },
+        {
+          "nome": "POT POURRI - CHOVE / FLOR / SÓ FALTA VOCE",
+          "cifra": "",
+          "n": "7"
+        },
+        {
+          "nome": "ÚLTIMA NOITE",
+          "cifra": "",
+          "n": "8"
+        },
+        {
+          "nome": "DAQUI PRA SEMPRE",
+          "cifra": "",
+          "n": "9"
+        },
+        {
+          "nome": "POT POURRI TO VALENDO NADA / FARRA PINGA E FOGUETE / MAUS BOCADOS",
+          "cifra": "",
+          "n": "10"
+        },
+        {
+          "nome": "SUITE 14",
+          "cifra": "",
+          "n": "11"
+        },
+        {
+          "nome": "BARULHO DO FOGUETE",
+          "cifra": "",
+          "n": "12"
+        },
+        {
+          "nome": "VOU FALAR QUE NÃO QUERO",
+          "cifra": "X\t|Dm|A♯|F|C|",
+          "n": "13"
+        },
+        {
+          "nome": "BALANÇO DA REDE",
+          "cifra": "a \t[F♯m|E|B/D♯|D]",
+          "n": "14"
+        },
+        {
+          "nome": "NOSSO SANTO BATEU",
+          "cifra": "",
+          "n": "15"
+        },
+        {
+          "nome": "PARADIGMAS JXM",
+          "cifra": "",
+          "n": "16"
+        },
+        {
+          "nome": "MEU PEDAÇO DE PECADO",
+          "cifra": "",
+          "n": "17"
+        },
+        {
+          "nome": "ESQUEMA PREFERIDO",
+          "cifra": "",
+          "n": "18"
+        },
+        {
+          "nome": "BABY ME ATENDE",
+          "cifra": "",
+          "n": "19"
+        },
+        {
+          "nome": "PODE CHORAR / CHORA ME LIGA",
+          "cifra": "",
+          "n": "20"
+        },
+        {
+          "nome": "BATON DE CEREJA",
+          "cifra": "",
+          "n": "21"
+        },
+        {
+          "nome": "SEU ASTRAL / AMO NOITE E DIA",
+          "cifra": "",
+          "n": "22"
+        },
+        {
+          "nome": "LARGADO AS TRAÇAS",
+          "cifra": "",
+          "n": "23"
+        },
+        {
+          "nome": "VIDINHA DE BALADA",
+          "cifra": "I\t[D]\na\t[Em | G | D | A (%)]\nr\t[ D |A |Em | G (A)]",
+          "n": "24"
+        },
+        {
+          "nome": "GOSTO DE RUA",
+          "cifra": "",
+          "n": "25"
+        },
+        {
+          "nome": "QUARTA CADEIRA",
+          "cifra": "i\t[G♯|%|Fm|%|C♯]\na\t[G♯|%|C♯|%|Fm|D♯|C♯|%]\nr\t[G♯|%|Fm|%|C♯|D♯]\ns\t[C♯|%|D♯|%|Fm|%]\n\ti,a,r,sf",
+          "n": "26"
+        },
+        {
+          "nome": "TE ASSUMIR PRO BRASIL / A HORA É AGORA",
+          "cifra": "a hora é agora\n\na\t[Cm|Eb|Bb|F]\n\t|Cm|%|Eb|%|Cm|Eb|F%]\nr\t|Bb|Eb|Gm|F|Eb7M|%]\n\t|Cm|Eb|F]\n\nte assumi pro brasil\ni\td~a~e~[D|E|F#m|E]\na\t[A|D|F#m|E] D%|E|]\nr\t[D|E|F#m|E]",
+          "n": "27"
+        },
+        {
+          "nome": "POT POURRI GATINHA ASSANHADA / TCHE TCHERERE TCHE / ZOAR E BEBER",
+          "cifra": "",
+          "n": "28"
+        },
+        {
+          "nome": "EVIDENCIAS",
+          "cifra": "",
+          "n": "29"
+        }
+      ]
+    },
+    {
+      "bloco": "Reservas",
+      "songs": [
+        {
+          "nome": "compadre e comadre",
+          "cifra": "i\t[D!|A|Bm|A|G|D]\na\t[G|D|A|Bm]\n\t[G|D|A|D gD]\nb\t[G|A|Bm|%](DgD)\n\ti, G agf♯gabcc♯D\n\n1,2 3\n\ni\t[D!%|A%]\na\t[D%|A%]\n\t[G|A|D%|A%|D%||\n\t|G|G a|Bm|Bm f♯|G|A|D|\n\t|G|G a|Bm|Bm a|G Em|A D!]\nr\t[A%|D%][G|A|D%]\n\ti,D!",
+          "n": "1"
+        },
+        {
+          "nome": "antigas (Zeze)",
+          "cifra": "Pão de mel\ni\t[aA♯|a♯C|aA♯| C!]\na\t[C|G|F|C]\np\t[Dm|F!|C|%]\nr\t[C%|G%|\n\t|Dm|G|C%]\nf\t[F|G|C%|\n\t|F|G|G♯ g♯ a♯ c|A♯ a♯ c c♯|D!]\n\nvoce vai ver\nir\t[D A/C♯|BmAm f♯!|G! D/F♯|A|%]\na\t[D A/C♯|Bm Am D|G D/F♯|Em Em/D|\n\t|A/C♯ F♯7|Bm G|D A|D A]\nf\ta b c♯ d a b c♯  e A\n\tdc♯baf♯eD\n\nsem medo de ser feliz\ni\t[riff D]\np\t[D|A|G|D]\nr\t[D|F♯|G A|D gdgD]\n\t[gg♯A bc A/C♯|D|\n\t[riff A blues|D gdgD](D7)\nb\t[G A|F♯ Bm|(G)Em A|D]\n\ta d e g f♯~e d G\n\nnova iorque\ni\t[A|E|b♭ c♯D|%]\n\td c♯ a d c♯ a,b♭b c♯\na\t[Bm|D|A|%](!)\nb\t[D|A! d c♯ bab da]\n\t[Bm!|D|'A|E]\n\ti, b♭ bc♯d dc♯b bc♯dc♯bagf♯ A!",
+          "n": "2"
+        },
+        {
+          "nome": "bebo pra carai",
+          "cifra": "x\t[E%|B%]\n\ncachaceiro\n\nx\t[E|F♯m|B|E]\nbrk\t[g♯ed♯| /C|F|C|F|C]\na\t[C|G|F|C|G]\nr\t[G|F|C|G] (C7|F|G|C]",
+          "n": "3"
+        },
+        {
+          "nome": "amor de violeiro",
+          "cifra": "i\t[C|F]\na\t[C|G|F|C|G]\np\t[G|F|C|% f](F|G|C]\ns\ti\nf\t[C f|C]",
+          "n": "4"
+        },
+        {
+          "nome": "menina veneno",
+          "cifra": "i\t[F G|Am(Em)]\nr\t[A♯|F|C|G|Dm|Am|G]\nf\t[GFGFG!]",
+          "n": "5"
+        },
+        {
+          "nome": "mala pronta",
+          "cifra": "a\t[C|Am|F|G]\nb\t[Em|Am|F|G]",
+          "n": "6"
+        },
+        {
+          "nome": "apelido carinhoso",
+          "cifra": "a\t[Cm|E♭|B♭|F]",
+          "n": "7"
+        },
+        {
+          "nome": "largado às traças",
+          "cifra": "a\t[B|C♯|D♯m|%]",
+          "n": "8"
+        },
+        {
+          "nome": "eu sei de cor",
+          "cifra": "r\t[A|E|F♯m|D]\na\t[A|C♯m|F♯m|D|\n\t|A|E|F♯m|D|B|E]",
+          "n": "9"
+        },
+        {
+          "nome": "tentei te esquecer",
+          "cifra": "a\t[C|F|G|%]Dm|G|C](E)\nb\t[Am|F|G|%]\nr\t[C|F|G|%](E) Am|F|\n\t[Dm|G|C|%]",
+          "n": "10"
+        },
+        {
+          "nome": "morango do nordeste",
+          "cifra": "a\t[C|G|Dm|Am|F) G]\nv\t[C%|G%]",
+          "n": "11"
+        },
+        {
+          "nome": "pagina de amigos",
+          "cifra": "x\t[C|G|F|C](G)",
+          "n": "12"
+        },
+        {
+          "nome": "passou da conta",
+          "cifra": "i\t[C|F|Em|Dm|Fm|G]\na\t[C%|F%|C%|G%|F%|C%]\nr\t[C|G|F|C|G|F|C|G]\ns\t[E♭ Dm|D♭ Cm|B♭|G]",
+          "n": "13"
+        },
+        {
+          "nome": "por um gole a mais",
+          "cifra": "a\t[G|D|C|G|B]\nr\t[E|B|A|E]\ns\t[G|D|C|F f♯|\n\t|G|D|C|%]",
+          "n": "14"
+        },
+        {
+          "nome": "bijuteria",
+          "cifra": "a\t[Am| Am/G|Dm|Dm/C|B7b5|E|Am|A]\nr\t[Dm|G|C|F|Bm7b5|E|Am A]",
+          "n": "15"
+        },
+        {
+          "nome": "dois corações e uma historia",
+          "cifra": "i\t[D|E]A]\na\t[Bm|E|A|F♯m|Bm|E|A|%]\nr\t[D|E|A|F♯m|Bm|E|D|E|A]+1",
+          "n": "16"
+        },
+        {
+          "nome": "todo mundo vai sofrer",
+          "cifra": "a\t[D♯|A♯|Fm|G♯]",
+          "n": "17"
+        },
+        {
+          "nome": "como um anjo",
+          "cifra": "i\t[F B♭]\na\t[F B♭!|F|C%|Gm%|B♭|C]\nb\t[Dm%|C%|B♭%|Gm F|C]\nr\t[F|Dm|B♭|Gm|C|\n\t[F|Dm|B♭|CF|C|\ns=r",
+          "n": "18"
+        }
+      ]
+    },
+    {
+      "bloco": "Antigas",
+      "songs": [
+        {
+          "nome": "Espaçosa demais B♭",
+          "cifra": "i\t[E♭ |B♭|Dm|Gm F]\n\t[:B♭|E♭:]\na\t[Cm E♭|B♭ F]>c d eb. f.\nR=i\t|a,rr e fim",
+          "n": "1"
+        },
+        {
+          "nome": "Quero ver é me esquecer Fm",
+          "cifra": "x\t[Fm|D♭|A♭|E♭]\ndb c b♭ ab eb (antes do refrao)\n>contras no refra",
+          "n": "2"
+        },
+        {
+          "nome": "Facas A",
+          "cifra": "a\t[D|%|A|%]\nr\t[D  |A  |D  | A   |\n\t|F♯m|C♯m|Bm Esus|A]\n\t|a,r,f|Bm Esus|D|A|",
+          "n": "3"
+        },
+        {
+          "nome": "Troca C♯",
+          "cifra": "x\t[C♯|G♯|A♯m|F♯]\nbass entra{|A♯m G♯|F♯....|}.",
+          "n": "4"
+        },
+        {
+          "nome": "Alô ambev A",
+          "cifra": "i\t[A|E]\na\t[A|E|Bm|D Dm]\nbrs\t[Bm D|A E] D E]\n\ta...\n\t: fim b♫",
+          "n": "5"
+        },
+        {
+          "nome": "Segunda taça A",
+          "cifra": "i\t[A]\na\t[A|%|D|%|Bm A/C♯|D|A]\nb\t[Bm|D|F♯m|E]Bm A/C♯|D|E]\nr\t[A|%|E| % |F♯m|E|\n\t[A|%|E|E D|F♯m|D|DE]\ns\t[A|%|E| % |F♯m|E]\n\tb,r,f(A)",
+          "n": "6"
+        },
+        {
+          "nome": "Investe em mim A",
+          "cifra": "i\t[F♯m|D|A|E]\na\t[Bm|A|E|%]E...|%]\n\tr=i,s,b,r\nc\t[Bm|F♯m|A|E|\n\t|Bm|D|E|%|%]\n\tr\nf\t[b c♯ d a |f♯]",
+          "n": "7"
+        },
+        {
+          "nome": "Tapão na Raba Dm",
+          "cifra": "a\t[D♯m|G♯]\nb\t[D♯m|C♯]",
+          "n": "8"
+        },
+        {
+          "nome": "Bebe vem me procurar Fm",
+          "cifra": "x\t[Fm|D♯|A♯m|C♯]",
+          "n": "9"
+        },
+        {
+          "nome": "Tá rocheda F♯m (capô)",
+          "cifra": "x\t[F♯m|A|E|Bm]",
+          "n": "10"
+        },
+        {
+          "nome": "Só não divulga c",
+          "cifra": "a\t[Dm |F  |Am |G]\nb\t[A♯%  |Dm%|C% |G%]\nr\t[Dm%|F% |Am%|G%]² Glick|G]\na,b,r,r,f",
+          "n": "11"
+        },
+        {
+          "nome": "Quarta cadeira G♯",
+          "cifra": "i\t[G♯|%|Fm|%|C♯]\na\t[G♯|%|C♯|%|Fm|D♯|C♯|%]\nr\t[G♯|%|Fm|%|C♯|D♯]\ns\t[C♯|%|D♯|%|Fm|%]\n\ti,a,r,sf",
+          "n": "12"
+        },
+        {
+          "nome": "Notificação preferida B",
+          "cifra": "x\t[E|F♯|D♯m|G♯m]\n\t(E F♯ G♯m %)",
+          "n": "13"
+        },
+        {
+          "nome": "ACASO/ Não, não vou",
+          "cifra": "Acaso\nx\t|A|C♯m|G♯m|B|(A B) .E/\n\nNão não vou\nX\t|Gm|F|Dm|E♭|\n(b♭ a g f 'g')",
+          "n": "14"
+        },
+        {
+          "nome": "VAGABUNDO",
+          "cifra": "a\t[C♯m|A|B|E]\npr\t[C♯m|A|C♯m|A|\n\t|C♯m|B|A|%|B]\nr\t[C♯m|A|B|C♯m|\n\t|A|B|G♯m|C♯m]\ns\t[A|B|G♯m|C♯m B.]\nf\t[A|B|C♯m]",
+          "n": "15"
+        },
+        {
+          "nome": "VOLTA BB VOLTA NENÉM",
+          "cifra": "x\t[D♯m|B|F♯|C♯]",
+          "n": "16"
+        },
+        {
+          "nome": "Ferida curada D",
+          "cifra": "i\t[F♯m|Bm|G|D](bass só na ²)\na\t[Bm|F♯m|G Em|A b A/C♯|aA]\nr\t[G%|A%|Bm%|(D%]",
+          "n": "17"
+        }
+      ]
+    },
+    {
+      "bloco": "Carnaval 2023",
+      "songs": [
+        {
+          "nome": "Abertura",
+          "cifra": "",
+          "n": "1"
+        },
+        {
+          "nome": "Tá cedo ou já pode",
+          "cifra": "",
+          "n": "2"
+        },
+        {
+          "nome": "Bombozinho",
+          "cifra": "",
+          "n": "3"
+        },
+        {
+          "nome": "Rolê",
+          "cifra": "",
+          "n": "4"
+        },
+        {
+          "nome": "Vamos tomar uma/ no balanço da rede",
+          "cifra": "",
+          "n": "5"
+        },
+        {
+          "nome": "Esquema preferido / volta comigo BB",
+          "cifra": "",
+          "n": "6"
+        },
+        {
+          "nome": "Batom de cereja / Assunto delicado",
+          "cifra": "",
+          "n": "7"
+        },
+        {
+          "nome": "EVA",
+          "cifra": "EVA (c)\ni\t[Dm]\na\t[F%|G%](C)\n\t[C|Dm%]\nr\t[C|Am|F|Dm|G]\np\t[Am|G|F|Dsus4]\na'\t[C7alt...|D7M]",
+          "n": "8"
+        },
+        {
+          "nome": "Taj Mahal / pais tropical",
+          "cifra": "i\t[f♯ a b c♯ Esus7 (Bm C♯m)]\na\t[F♯m|%|Bm|C♯m]\n\t[e d b c♯ F♯m] conv f♯, a conv f♯\npaís tropical\ni\tconv G, conv cb G\na\t[G |G/B| C D][Em D|C D] conv d\nb\t[C7|%|G|%  ] conv d\nf\t[g!| c♯dc♯d| G7]",
+          "n": "9"
+        },
+        {
+          "nome": "Por pourri descobridor",
+          "cifra": "descobridor\na\t[Gm|C C/F] (conv eef f♯f♯g)\nr \t[B♭ Fm | E♭ Cm]\nnão qro dinheiro\na\t[A|F♯m|A|F♯m|¹E]D Dm|E]\nr\t[D E9/D|C♯m F♯m |B E |A!]\n\t(conv2 abc♯dedc♯ A)\nf\t(conv ef♯aba)",
+          "n": "10"
+        },
+        {
+          "nome": "parara e arere",
+          "cifra": "PARARÁ | ARERÊ\nx\t[C|Am|F (Dm)| G]\narere\na\t[C C/E| F G]\nb\t[F|G|F|G!]\nb'\t[F|%|G|%!|",
+          "n": "11"
+        },
+        {
+          "nome": "Bloqueado forro",
+          "cifra": "",
+          "n": "12"
+        },
+        {
+          "nome": "Pipoco forro",
+          "cifra": "i\tlick Am B°\na\t[Am|% |F|G] (B♭m) (lick Am)\nr\t[Am|C |F|G]\na'\t[Am|G|F|G] (Am) (lick Am)\nf\tr, d c b Am!",
+          "n": "13"
+        },
+        {
+          "nome": "Fala mal de mim",
+          "cifra": "",
+          "n": "14"
+        },
+        {
+          "nome": "Solteiro de novo",
+          "cifra": "x\t[C♯m|A|E|B]",
+          "n": "15"
+        },
+        {
+          "nome": "Haja colírio (axé)",
+          "cifra": "",
+          "n": "16"
+        },
+        {
+          "nome": "Mal feito / esqueça me se for capaz",
+          "cifra": "",
+          "n": "17"
+        },
+        {
+          "nome": "Praieiro",
+          "cifra": "i\t(bC♯m|z B)\n\t[C♯m|G♯m|A|E E B/D♯](B)\n\t[A B|C♯m (c♯ d♯ e d♯ c♯)]\na\t[C♯m|G♯m|A|E E B/D♯](B)\nb\t[F♯m G♯m|C♯m]\n\t[F♯m|B|E|F♯m|G♯m|C♯m B]\nr\t[A B|G♯m C♯m|A B | E B/D♯ C♯m B](E)",
+          "n": "18"
+        },
+        {
+          "nome": "Mila",
+          "cifra": "pi\t[A|B|G♯m|C♯m|A](A|B|E|%)\ni\t[E!]\na\t[E|A B]\nb\t[C♯m|G♯m|A|E E B/D♯]\n\t[C♯m|B/E♭|E|%]\nr\t[A|B|G♯m|C♯m|A](A|B|E|%)",
+          "n": "19"
+        },
+        {
+          "nome": "Pipoca e quero chiclete",
+          "cifra": "PIPOCA\ni\t[A|Bm|G A|Bm]\na\t[Bm A|Bm|Em F♯m|Bm]\nb\t[A|Bm|G A (F♯) |Bm] (A)\nr\t[Bm A|Bm|Em F♯m|Bm]\nb'\t\nc\t[Em|Bm|G F♯m|Bm|\n\t[Em|Bm|G |f♯ g F♯7]\nquero chic\t\ni\t[A G | %%| %%|A]\na\t[E D | A ] B |E]\n\t[A F♯m|B|E]\nr\t[A|D|E|%]\ns\t[A|D|Bm|E]",
+          "n": "20"
+        },
+        {
+          "nome": "Leva eu super fantástico",
+          "cifra": "LEVA EU | SUPER FANTÁSTICO\ni\t[E|B|A|B]\nr\t[E|A|F♯m B|E]\na\t[B|C♯m|B|E ef♯ f♯g gg♯g♯|\n\t|B|C♯m|gf♯ E!] D A/C♯ |B],r\nsuper fantástico\ni\t[E7 ee edb ee db]\na\t[E|C♯m c♯ d♯ e |\n\t|F♯m F♯m7M|B b c♯ d♯|E]\npr\t[A|B|G♯m|C♯m| A| B7!]\nr\t[E|C♯m|G♯m|B]\n\t[A|B|G♯m|C♯m|A| B7!] (E!)",
+          "n": "21"
+        },
+        {
+          "nome": "Te espero no farol/ colorir papel",
+          "cifra": "te espero\ni\t[G|D|C|D] Em|Bm|C Am|D]\na\t[G|D|C|D]\nb\t[C|D|C|D| Em|Bm|C Am|D|D!]\na,i\n\ncolorir\nx\t[Dm|C7M]",
+          "n": "22"
+        },
+        {
+          "nome": "Por pourri logo eu / rosa e beija fl",
+          "cifra": "",
+          "n": "23"
+        },
+        {
+          "nome": "Meu pedaço de pecado/ aquelas coisas",
+          "cifra": "",
+          "n": "24"
+        },
+        {
+          "nome": "Tem cabaré essa noite",
+          "cifra": "",
+          "n": "25"
+        },
+        {
+          "nome": "Novinha vai no chão",
+          "cifra": "i\t[b!| c!| b♭b♭aba]\na\t[E|C|E|Am]cc♯d\nb\t[Dm|%|%|Am|Dm|%|%|E|Am|E|Am] cc♯d\np\t[Dm|Am|E|Am|Dm|Am|E|%]\nr\t[E|C|E|Am] atk .b",
+          "n": "26"
+        },
+        {
+          "nome": "Baby me atende/ late coração",
+          "cifra": "",
+          "n": "27"
+        },
+        {
+          "nome": "Passa tempo",
+          "cifra": "",
+          "n": "28"
+        },
+        {
+          "nome": "brincadeira: chamar pra dançar no pa",
+          "cifra": "",
+          "n": "29"
+        },
+        {
+          "nome": "tomada / dança da mãozinha",
+          "cifra": "a\t[D Bm|Em|%|Am D|G Gm|F♯m B|Em A|D]\nr\t[D|%|Em|%|A|%|Em A|D]",
+          "n": "30"
+        },
+        {
+          "nome": "Pot pourri tchan",
+          "cifra": "",
+          "n": "31"
+        },
+        {
+          "nome": "Cheia de manias",
+          "cifra": "",
+          "n": "32"
+        },
+        {
+          "nome": "Thuchubirabirom / lepo lepo",
+          "cifra": "tchu\nx\t[A|F♯m|Bm|E]\nlepo\na\t[A|E|F♯m|D]\nb\t[Bm|F♯m|A|E]",
+          "n": "33"
+        },
+        {
+          "nome": "Trem das onze",
+          "cifra": "i\t[Gm G♯°|Dm %|B♭! A7!|Dm A7]\na\t[Dm|%|%|A7 Am D|\n\t|Gm A|Dm|Dm EmA|A|B♭ A|Dm (A)]\nb\t[D7 |Gm |G♯° Em7b5|A7 (def f♯g)|\n\t|Gm! G♯°|Dm|B♭ A7|Dm A7]\nif\t[Gm  G♯°|Dm|B♭ A7|Dm A7]",
+          "n": "34"
+        },
+        {
+          "nome": "cerveja de garrafa",
+          "cifra": "a\t[E%| A% ]\nb\t[E%|F♯m%]",
+          "n": "35"
+        },
+        {
+          "nome": "Péssimo negócio",
+          "cifra": "i\t\t[Gm F/A |B♭|Gm F/A |E♭]\na\t\t[Gm F/A|B♭|Cm B♭/D|F ]\npr\t\t[A♯ F/A|Gm|Cm B♭/D|F (f eb d c)]\nR\t\t[A♯ F/A|Gm fg|CmB♭/D|F/AE♭/GF]\nsobe 1/2 tom no fim",
+          "n": "36"
+        },
+        {
+          "nome": "Pé na areia",
+          "cifra": "i\t[G7M|D7M]\na\t[D7M|D9|G7M|Gm7!|\n\t[D7M|D9|G7M|E♭7M]\nb\t[Em9|D7M] 3x\n\t[Esus4|F♯7]\nr\t[Em9 G7M|D7M B9] 3x\n\t[Em G|D7M!]\n\ta',b,r 2x,i",
+          "n": "37"
+        },
+        {
+          "nome": "Falta você",
+          "cifra": "i\tSlap B¾\n\t[D7M | D7sus4| G7M| A♯7M C7]\na\t[D7M| Am7   | G7M| C13]\nb\t[D7M| D7sus| G7M| C13|\n\t[D7M| D7sus| G7M| A♯7M C13]\n\t|D7M| D7sus| G7M| A♯7M C13]\n\tfim=a",
+          "n": "38"
+        },
+        {
+          "nome": "Meu Erro e Uma brasileira",
+          "cifra": "meu erro\ni\t[A|E|D|% (Dm)]\na\t[A|C♯m|D|Dm] r\nb\t[C♯m|F♯m|D|Dm]\numa br\na\t[A E/G♯|F♯m C♯m|\n\t||F♯m C♯m|DA/C♯|Bm E]\npr\t[D|E Fº|F♯m F♯m/E| F♯m6/E♭]\nr\t[D E|D E|D C♯m|F♯m (lick]",
+          "n": "39"
+        },
+        {
+          "nome": "Chega e senta",
+          "cifra": "",
+          "n": "40"
+        },
+        {
+          "nome": "Malvada",
+          "cifra": "",
+          "n": "41"
+        },
+        {
+          "nome": "Putariazinha",
+          "cifra": "",
+          "n": "42"
+        },
+        {
+          "nome": "Revoada no colchão",
+          "cifra": "",
+          "n": "43"
+        },
+        {
+          "nome": "Toma toma vapo vapo",
+          "cifra": "",
+          "n": "44"
+        },
+        {
+          "nome": "Ameaça",
+          "cifra": "",
+          "n": "45"
+        },
+        {
+          "nome": "Ana Júlia",
+          "cifra": "i\t[E|C♯m]\na\t[E|C♯m|G♯m|A B]\nb\t[C♯m|G♯m|A|B]\nr\t[E|A|B%]\ns\t[E|A|B%]\n\t[C♯m|G♯m|A|E](B)\npr\t[C♯m|G♯m|A|E](B)",
+          "n": "46"
+        },
+        {
+          "nome": "Do seu lado",
+          "cifra": "a\t[D |%|Am|%|C|G|D|%]\nb\t[C |G|D|%]\n\t[Em|G|D|%]\nr\t=a\nf\t(G D/F♯ C|D!)",
+          "n": "47"
+        },
+        {
+          "nome": "Será legião",
+          "cifra": "a\t[C|G|Am|F]\n\t|Am|Em|F|G]\np\t(CFG)\nr\t[G%|Dm%]Am|F|G],p\nf\t[C%|G/B%|Gm/B♭%|Dm%]\n\t[GF]",
+          "n": "48"
+        },
+        {
+          "nome": "Vira vira",
+          "cifra": "",
+          "n": "49"
+        },
+        {
+          "nome": "Pelados em santos",
+          "cifra": "a\t[D|Bm|G|A]\nb\t[ag F♯%|G%]",
+          "n": "50"
+        },
+        {
+          "nome": "valeu a pena",
+          "cifra": "a\t[B♭m % | A♭%]\nr\t[D♭ B♭m| A♭%]",
+          "n": "51"
+        },
+        {
+          "nome": "novinha do onlyfans",
+          "cifra": "a\t[Em| D ]\nb\t[Em|% D]",
+          "n": "52"
+        },
+        {
+          "nome": "roça roça em mim",
+          "cifra": "x\t[Am|G|Dm|F] (E7)",
+          "n": "53"
+        },
+        {
+          "nome": "Leão",
+          "cifra": "x\t[(B)|F♯|A♯7|D♯m]",
+          "n": "54"
+        },
+        {
+          "nome": "Zona de Perigo",
+          "cifra": "x\t[Gm|B♭|F|C]",
+          "n": "55"
+        },
+        {
+          "nome": "pega o guanabara",
+          "cifra": "x\t[E|F♯|D♯m|E]",
+          "n": "56"
+        },
+        {
+          "nome": "celebrar",
+          "cifra": "i\t[D!|E!|F♯m]\n\t[D E|C♯m F♯m]\n\t|D A/C♯ B A| E]\na\t[A|E|F♯m|D]\nb\t[F♯m|D|E|C♯m|F♯m|D|E!]\nr\t[D|E|C♯m|F♯m]\nf\t[D E|C♯m F♯m]\n\t|D A/C♯ B A| E]\n\t(A!)",
+          "n": "57"
+        },
+        {
+          "nome": "água no zoi",
+          "cifra": "",
+          "n": "58"
+        },
+        {
+          "nome": "Meu pedaço de pecado/ aquelas coisas",
+          "cifra": "",
+          "n": "59"
+        },
+        {
+          "nome": "Tapão na raba",
+          "cifra": "",
+          "n": "60"
+        }
+      ]
+    },
+    {
+      "bloco": "Carnaval 2024",
+      "songs": [
+        {
+          "nome": "mulher de fases",
+          "cifra": "i\t[G! C!D!][Em ]\na\t[G |D C|Em|Am (C)]\nb\t[C| Am| Em| G|C|G|D|\n\ta,|C|G|def♯gabe D!]\nr\t[G |C| G| D D♯°|Em|Am|C|%]\nf\t[G! C!D!]³[Em¹|~\n\n~c\t[Em|%G|Em|Am|C Am|Em|G|C|G|D]\n\nsaidera\n\ni\t[a a ca ca de g!|]\nx\t[Am C |Bm7b5 E7][Am C |Dm E7]\nf\t[egg♯acded♯dc G! G♯![Am G!]³ gaedcg Am!]",
+          "n": "1"
+        },
+        {
+          "nome": "toca o trompete",
+          "cifra": "a\t[D Bm[F♯m E][Bm|C♯m]\nb\t[A|Bm|%|E F♯m|%|\ns\t[Bm|E|F♯m|F♯m]\n\nvuk vuk\n\nx\t[Cm%|Gm%]\n\ngol bolinha\n\nx\t[Bm%|G| F♯]",
+          "n": "2"
+        },
+        {
+          "nome": "Pagode antigo",
+          "cifra": "Deixa acontecer\ni\t[D%]\na\t[G7M | F♯7 |Bm   | D7 |\n\t|G7M | F♯7 |BmA♯m|AmD7|\n\t|G7M | F♯7 |Bm   | D7 |\n\t|Em6 | F♯7 |Bm   | D7M]\np\t(G7)\nCoração radiante\n\na\t[C|G G♯°|Am|F G]\nr\t[C! C7!|F G]\np\t[Am D|G C|F!]\n\t[C7|F Dm|Gm C|F! F7!]\n\nTa escrito\n\nb\t|Bb|%|F C|Am|Gm C|\n\t|F D |Gm C7|F! F7!]\nr\t[Bb|%|F|F Dm|\n\t|C|B♭ C |'F| Cm F7]\n\t(B♭ C7|F F69)",
+          "n": "3"
+        },
+        {
+          "nome": "diferentao",
+          "cifra": "i\t[A|%!|E|%]\na\t[F♯m|%|G♯m|C♯7!]\n\t(f♯ f d♯ c♯ b a F♯m!)¹\nr\t[A b!|B |G♯m |C♯7](A!|B!)\na'\t[F♯m!|% | B!ba♯a |G♯m!|.C♯7]\nr²\t[A b!|B |G♯m|C♯7 g♯f♯fc♯bag♯ |\n\t|f♯!A| bB!|G♯m|C♯7]\n\tr,rdin2x(C♯7!)",
+          "n": "4"
+        },
+        {
+          "nome": "eu mereço ser feliz",
+          "cifra": "a\t[C |C/B♭|F/A |Fm/A♭]",
+          "n": "5"
+        },
+        {
+          "nome": "fulminante",
+          "cifra": "i\t[E!|F♯!|E!|E A.!]\na\t[E|A|E|A C°|C♯m (C♯m! E!)]\nb\t[A|B|G♯m|C♯m B] \n\t|A! F♯m! Bm! E!]\n\ta,b,a,b\nf\t[A B | C♯m B|A A!| E!|E!]",
+          "n": "6"
+        },
+        {
+          "nome": "cheia de mania | Mineirinho",
+          "cifra": "cheia de mania\ni\t[Gm|F|Eb|F]\na\t[Gm|F]\n\nmineirinho\ni \t| abc♯e f♯gf♯ef♯|\n\t[C G|D G]\np1\t[gG!|a♯aBm! |G!g| a♯aa♯b]\na\t[C G|D G]\nb\t[F|G|F|G|C|G|D|G]\nr\t[F|C|D|G]\n\tr2 (ataques, cdg!,r, g! da♯ag!,\ta\nf\t[Em! D♯m! Dm!| Dm! C♯m! Cm!| G!]",
+          "n": "7"
+        },
+        {
+          "nome": "posturado e calmo",
+          "cifra": "a\t[c♯ d e|f♯ e def♯ ed]",
+          "n": "8"
+        },
+        {
+          "nome": "parada louca",
+          "cifra": "x\t[C|Em|G|D]",
+          "n": "9"
+        },
+        {
+          "nome": "arere",
+          "cifra": "a\t[E E/G♯|A B]\nb\t[AB|AB](B)]",
+          "n": "10"
+        },
+        {
+          "nome": "bebaça",
+          "cifra": "x\t[G♯|A♯|Cm|%]\na\t[Cm|A♯]G♯|G7]\nb\t[Cm|A♯|G♯|G]\nr\t[G♯|A♯|Cm|%]\n\t[G♯|G7]",
+          "n": "11"
+        },
+        {
+          "nome": "caranguejo",
+          "cifra": "i\t[solobass+steeldrum]\na\t[Dm G |C Am]C!\nr\t[Dm G|C]\nb\t[Fm|Cm]G|C!]\n\tr,\nc\t[Dm G|C Am]C♯!]\n\ta,r,b,r,f",
+          "n": "12"
+        },
+        {
+          "nome": "vou dar virote",
+          "cifra": "i\t[C♯m|A|E|B]\na\t[C♯m%|A%|E%|B% (G♯7)]\nb\t[A|%|C♯m|%|F♯m A|B]\nr\t[C♯m|A|E|B]\nf\ted♯c♯bc♯ xxxxC♯m!",
+          "n": "13"
+        },
+        {
+          "nome": "extravasa",
+          "cifra": "i\t[F♯m9|D|F♯m|C♯m]\na\t[F♯m|%|D E|F♯m]\nb\t[Bm%|E%]C♯7]\nr\t[Bm D|%|F♯m|%]\np\t[F♯m7 groove]\n\tb,r\nf\t[ef♯ ef♯ ef♯ abcc♯eF♯m!]",
+          "n": "14"
+        },
+        {
+          "nome": "levada louca",
+          "cifra": "a\t[Bm|Em A]\nb\t[A%%|Bm][Em A| Bm]\nr\t[A|Bm|A|Bm]",
+          "n": "15"
+        },
+        {
+          "nome": "fulano in sala",
+          "cifra": "x\t[Em|B7]\n\t(e d♯ c b a gaf♯B7|Em",
+          "n": "16"
+        },
+        {
+          "nome": "tempo de alegria",
+          "cifra": "i\t[C♯|D♯m|F♯|C♯]\na\t[C♯|%|D♯m|%|F♯|F♯m]\n\t(G♯) g♯f♯ff♯\nr\t[D♯m%|C♯%]\ns\t[beat C♯m]\nf\t[D♯m!|F♯!|C♯%]",
+          "n": "17"
+        },
+        {
+          "nome": "Zuar e beber",
+          "cifra": "[F| Am | F | G]",
+          "n": "18"
+        },
+        {
+          "nome": "Macetando",
+          "cifra": "a\n[Dm|Gm]\nb\n[Dm|A7]",
+          "n": "19"
+        },
+        {
+          "nome": "Scatman",
+          "cifra": "a\n[ C | Em | D | Bm]\nb\n[Am | Em | D | Bm]",
+          "n": "20"
+        },
+        {
+          "nome": "Palhaça",
+          "cifra": "i\n[Fm|G♯|Cm|A♯]\na\n[Cm|%|G♯|A♯|Cm|\n|Cm|%|G♯|G]\nb\n[Fm|Cm|G♯|G]\nR\n[Fm|(G♯)|Cm|A♯]",
+          "n": "21"
+        },
+        {
+          "nome": "Ai papai",
+          "cifra": "[Bm | Em ](G)\n\nIntro .bbb.bbb.eee.eee",
+          "n": "22"
+        },
+        {
+          "nome": "sentada diferente",
+          "cifra": "a\n[ C | D | Em | G ]\ng f♯ e. d Em\ng f♯ e d b c D!\ne b e g b g f♯ Em!",
+          "n": "23"
+        }
+      ]
+    },
+    {
+      "bloco": "Carnaval 2025",
+      "songs": [
+        {
+          "nome": "Abertura",
+          "cifra": "",
+          "n": "1"
+        },
+        {
+          "nome": "Bloqueado",
+          "cifra": "i\t[Bm|A]\na\t[Bm|G|D|F♯m] G%|A]\nr\t[Bm|A|Em|% D/F♯|G|A] Bm]\ns\t[Bm|A%||Bm A|G Em]lick Bm",
+          "n": "2"
+        },
+        {
+          "nome": "Rolê",
+          "cifra": "a\t[Gm|B♭|Dm|C]",
+          "n": "3"
+        },
+        {
+          "nome": "canudinho",
+          "cifra": "",
+          "n": "4"
+        },
+        {
+          "nome": "Bombozinho/ assunto delicado",
+          "cifra": "bombomzin\ni\t[B♭m | D♭| Fm| E♭]\na\t[B♭m | D♭| A♭ | E♭|\n|B♭m | D♭| Fm| E♭]\nr\t[E♭m| G♭| D♭| A♭]\ns\t[B♭m | D♭| A♭ | E♭|\n|B♭m | D♭| Fm| E♭]\nf\t(E♭m)\n[E♭m| G♭| D♭ | A♭|\n|E♭m| G♭| D♭ | A♭³| E♭m]\n\nassunto\nX\t[Em|D|Am|C]",
+          "n": "5"
+        },
+        {
+          "nome": "Barulho do foguete",
+          "cifra": "",
+          "n": "6"
+        },
+        {
+          "nome": "Eva",
+          "cifra": "EVA (c)\ni\t[Dm]\na\t[F%|G%](C)\n[C|Dm%]\nr\t[C|Am|F|Dm|G]\np\t[Am|G|F|Dsus4]\na'\t[C7alt...|D7M]",
+          "n": "7"
+        },
+        {
+          "nome": "Taj Mahal / pais tropical",
+          "cifra": "i\t[f♯ a b c♯ Esus7 (Bm C♯m)]\na\t[F♯m|%|Bm|C♯m]\n[e d b c♯ F♯m] conv f♯, a conv f♯\npaís tropical\ni\tconv G, conv cb G\na\t[G |G/B| C D][Em D|C D] conv d\nb\t[C7|%|G|%  ] conv d\nf\t[g!| c♯dc♯d| G7]",
+          "n": "8"
+        },
+        {
+          "nome": "Por pourri descobridor",
+          "cifra": "descobridor\na\t[Gm|C C/F] (conv eef f♯f♯g)\nr \t[B♭ Fm | E♭ Cm]\nnão qro dinheiro\na\t[A|F♯m|A|F♯m|¹E]D Dm|E]\nr\t[D E9/D|C♯m F♯m |B E |A!]\n(conv2 abc♯dedc♯ A)\nf\t(conv ef♯aba)",
+          "n": "9"
+        },
+        {
+          "nome": "Parara e arere",
+          "cifra": "PARARÁ | ARERÊ\nx\t[C|Am|F (Dm)| G]\narere\na\t[C C/E| F G]\nb\t[F|G|F|G!]\nb'\t[F|%|G|%!|",
+          "n": "10"
+        },
+        {
+          "nome": "Pot pourri Ivete buscar Dalila",
+          "cifra": "abalou\ni\ta ca[Em|F#mFm Em|f#d f#e]F#7]\ng:{e'e edbde |e f#fe |e f#c#f# fcf} \na\t[Bm%|F#m%|Em|A7|D7M|C#m7b5 F#7 (D7M)]\nb\t[Em F#m|Bm9] G F#m E|F#7!!]\ng:{eb f#c#|bf# f#'c#f#}\nr\t[Em| Bm] \ng:{ee f#d ee| ef#edc#|bb 'c#abb | abagf#}\n[baf#e af#ed f#edb edab G#5]\n\n\ndalila\n\na\t[B%%|C] Em]\nb\t[Em Am|B Em]\nc\t[Am |B]\n\npoeira\n\nr\t[Em| D]\na\t[A |D ]",
+          "n": "11"
+        },
+        {
+          "nome": "Extravasa",
+          "cifra": "i\t[F♯m9|D|F♯m|C♯m]\na\t[F♯m|%|D E|F♯m]\nb\t[Bm%|E%]C♯7]\nr\t[Bm D|%|F♯m|%]\np\t[F♯m7 groove]\nb,r\nf\t[ef♯ ef♯ ef♯ abcc♯eF♯m!]",
+          "n": "12"
+        },
+        {
+          "nome": "Tempo de alegria",
+          "cifra": "i\t[C♯|D♯m|F♯|C♯]\na\t[C♯|%|D♯m|%|F♯|F♯m]\n(G♯) g♯f♯ff♯\nr\t[D♯m%|C♯%]\ns\t[beat C♯m]\nf\t[D♯m!|F♯!|C♯%]",
+          "n": "13"
+        },
+        {
+          "nome": "Carangueijo",
+          "cifra": "i\t[solobass+steeldrum]\na\t[Dm G |C Am]C!\nr\t[Dm G|C]\nb\t[Fm|Cm]G|C!]\nr,\nc\t[Dm G|C Am]C♯!]\na,r,b,r,f",
+          "n": "14"
+        },
+        {
+          "nome": "Levada louca",
+          "cifra": "a\t[Bm|Em A]\nb\t[A%%|Bm][Em A| Bm]\nr\t[A|Bm|A|Bm]",
+          "n": "15"
+        },
+        {
+          "nome": "saudade que eu tava / fala mal de mim / tem cabaré essa noite",
+          "cifra": "I\t[F♯m|E|Bm|D]\na\t[F♯m|%|D|E]\nb\t[D|E|A E/G♯|D/F♯ E|\n|D|E|F♯     |%]\nR\t[D|E|F♯|%]",
+          "n": "16"
+        },
+        {
+          "nome": "novinha onlyfans / roça em mim",
+          "cifra": "only\na\t[Em| D ]\nb\t[Em|% D]\n\nroça\nx\t[Am|G|Dm|F] (E7)",
+          "n": "17"
+        },
+        {
+          "nome": "descer pra BC",
+          "cifra": "i\t[Bb|A]\n[Dm|Bb|C|Dm|Bb|A]\na\t[Dm%|C%|Bb|A]",
+          "n": "18"
+        },
+        {
+          "nome": "Casca de bala",
+          "cifra": "x\t[Fm|Db|Ab|Eb]",
+          "n": "19"
+        },
+        {
+          "nome": "Pot pourri tik tok  revoada / toma toma / ameaça",
+          "cifra": "revoada\na [Fm|C♯|G♯|D♯]\npr  |A♯m|C♯|Fm|D♯|\n|A♯m|C♯|D♯|>.A\n\ntoma toma\nx    [Em|C|(B7)]\n\nameaça\na\t[Cm|A♭|E♭|B♭]",
+          "n": "20"
+        },
+        {
+          "nome": "Pot pourri arrocha",
+          "cifra": "",
+          "n": "21"
+        },
+        {
+          "nome": "Suite 14",
+          "cifra": "",
+          "n": "22"
+        },
+        {
+          "nome": "Copo pro alto",
+          "cifra": "x\t[G#m|E ]",
+          "n": "23"
+        },
+        {
+          "nome": "Ta cedo ou já pode",
+          "cifra": "i\t[B|F♯|C♯m|E]\na\t[B|F♯|E|%]F♯]\nr\t[B|F♯|C♯m|E ]s\na,r',s'\n:conv s,r's' e f",
+          "n": "24"
+        },
+        {
+          "nome": "dança da mãozinha",
+          "cifra": "",
+          "n": "25"
+        },
+        {
+          "nome": "Thuchubirabirom / lepo lepo",
+          "cifra": "tchu\nx\t[A|F♯m|Bm|E]\nlepo\na\t[A|E|F♯m|D]\nb\t[Bm|F♯m|A|E]",
+          "n": "26"
+        },
+        {
+          "nome": "Pot pourri tchan",
+          "cifra": "",
+          "n": "27"
+        },
+        {
+          "nome": "Cheia de manias / mineirinho",
+          "cifra": "cheia de mania\ni\t[Gm|F|Eb|F]\na\t[Gm|F]\n\nmineirinho\ni \t| abc#e f#gf#ef#|\n[C G|D G]\np1\t[gG!|a#aBm! |G!g| a#aa#b]\na\t[C G|D G]\nb\t[F|G|F|G|C|G|D|G]\nr\t[F|C|D|G]\nr2 (ataques, cdg!,r, g! da#ag!,\ta\nf\t[Em! D#m! Dm!| Dm! C#m! Cm!| G!]",
+          "n": "28"
+        },
+        {
+          "nome": "Eu mereço ser feliz",
+          "cifra": "i\t[A# |A#/G# |D#/G |D#m/F#]\na\t[A# |Fm/G# A#7|D#/G Cm|D# F|\n|A# |A#/G# A#7/D|D#/G Cm|C#7M D# ]\nb\t[A# |A#/G# |D#/G |D#m/F# (F)]\nf\t[A#! !!|A#6/9]",
+          "n": "29"
+        },
+        {
+          "nome": "Por pourri pagode deixa acontecer",
+          "cifra": "Deixa acontecer\ni\t[C%]\na\t[F7M | E7 |Am   | C7 |\n|F7M | E7 |AmG#m|GmC7|\n|F7M | E7 |Am   | C7 |\n|Dm6 | E7 |Am   | C7M]\np\t(F7)\nCoração radiante\n\na\t[A#|F F#°|Gm|D# F]\nr\t[A#! A#7!|D# F]\np\t[Gm C F A#|D#!]\n[A#7|D# Cm|Fm A#|D#! D#7!]\n\nTa escrito\n\nb\t|G#|%|D# A#|Gm|\n|Fm A#|D# C|Fm A#7|D#! D#7!]\nr\t[G#|%|D#|D# Cm|\n|A#|G# A# | 'D#| A#m D#7]\n(G# A#7/G#|D# D#69)",
+          "n": "30"
+        },
+        {
+          "nome": "Por pourri pagode 90",
+          "cifra": "tarde demais\na\t[E|F#m]\n[E E/G# A/F# B/D#|\nb\t[C#m|G#m|A|G#m B](B)\nr\t[E%|G#m%|A%|B%]\n[E|F#m]\n\nessa tal liberdade\nx\t[E (C#m)|G#m|A|B]\n\nque se chama amor\nx\t[G|Bm|C|Cm (D)]",
+          "n": "31"
+        },
+        {
+          "nome": "Lapada dela/ falta você",
+          "cifra": "lapada dela \na\t[Em%|Am%|F#7b5 B]\nb\t[C|Am|Em|F#7b5 B]\n\nfalta voce\ni\tSlap B¾\n[D7M | D7sus4| G7M| A♯7M C7]\na\t[D7M| Am7   | G7M| C13]\nb\t[D7M| D7sus| G7M| C13|\n[D7M| D7sus| G7M| A♯7M C13]\n|D7M| D7sus| G7M| A♯7M C13]\nfim=a",
+          "n": "32"
+        },
+        {
+          "nome": "Diferentao",
+          "cifra": "i\t[A|%!|E|%]\na\t[F#m|%|G#m|C#7!](f# f d# c# b a F#m!)¹\nr\t[A b!|B|G#m|C#7](A!|B!)\na'\t[F#m!|%|B!ba#a|G#m!|.C#7]\nr'²\t[A b!|B|G#m|C#7 g#f#fc#bag# |\n|f#! A| bB!|G#m|C#7]\nr,rdin2x(C#7!)",
+          "n": "33"
+        },
+        {
+          "nome": "Coração partido",
+          "cifra": "i\t[E| F#m B ed#c#ba|\n|G#m| A B  ed#c#ba]\na\t[E E+|C#m E+|\n|G#m| F#m B]\nb\t[E E+|C#m A#m7b5 D#7|\n|G#m|%|F#m B A!| ed#dC#! !!!]\nr\t[F#m|B|G#m|C#]\np\t[g#be g#be d#| ed#c#ba]\na,b,r(C#!!!)",
+          "n": "34"
+        },
+        {
+          "nome": "Solteiro de novo / virote /Novinha vai no chão",
+          "cifra": "vou dar virote\ni\t[C#m|A|E|B]\na\t[C#m%|A%|E%|B% (G#7)]\nb\t[A|%|C#m|%|F#m A|B]\nr\t[C#m|A|E|B]\nf\ted#c#bc# xxxxC#m!\n\nNovinha vai no chão\ni\t[b!| c!| bbaba]\na\t[E|C|E|Am]cc♯d\nb\t[Dm|%|%|Am]\n[E|C]4x\np\t[Dm|Am|E|(E)Am]\nr\ta atk .b",
+          "n": "35"
+        },
+        {
+          "nome": "Macetando",
+          "cifra": "a\n\t\t[Dm|Gm]\n\t\tb\n\t\t[Dm|A7]",
+          "n": "36"
+        },
+        {
+          "nome": "Pot pourri só fé",
+          "cifra": "só fé\na\t[Dm F |C G]\nb\t[F|Dm|Am|G]\np\t[F Am|G]\n\nde graça ou pagando\na\t[F|e Am|C|G]\n(cgacdeg)\nr\t[F|% |Am|G|\n|F|Am| C|G]\nf\t[C cdcb|G ab|F]",
+          "n": "37"
+        },
+        {
+          "nome": "Postura do e calmo",
+          "cifra": "a\t[c# d e|f# e def# ed]",
+          "n": "38"
+        },
+        {
+          "nome": "Zona de perigo",
+          "cifra": "x\t[Gm|B♭|F|C]",
+          "n": "39"
+        },
+        {
+          "nome": "Cavalinho",
+          "cifra": "x\t[A#m%|G#]\n-4col +2 +2",
+          "n": "40"
+        },
+        {
+          "nome": "Oh garota quero vc só pra mim",
+          "cifra": "a\t[Bm|A|F#m|G]\nb\t[abcccb ccb ed ed[Am|G|Em|F]\na\nf\t[dda!]",
+          "n": "41"
+        },
+        {
+          "nome": "Daqui pra sempre",
+          "cifra": "x\t[Em|G|Bm|D]",
+          "n": "42"
+        },
+        {
+          "nome": "Ai papai",
+          "cifra": "[Bm | Em ](G)\n\nIntro .bbb.bbb.eee.eee",
+          "n": "43"
+        },
+        {
+          "nome": "Parada louca",
+          "cifra": "x\t[C|Em|G|D]",
+          "n": "44"
+        },
+        {
+          "nome": "Bebaça",
+          "cifra": "x\t[A#|C|Dm|%]\na\t[Dm|C]A#|A7]\nb\t[Dm|C|A#|A]\nr\t[A#|C|Dm|%]\n[A#|A7]",
+          "n": "45"
+        },
+        {
+          "nome": "Palhaça",
+          "cifra": "i\n[Fm|G♯|Cm|A♯]\na\n[Cm|%|G♯|A♯|Cm|\n|Cm|%|G♯|G]\nb\n[Fm|Cm|G♯|G]\nR\n[Fm|(G♯)|Cm|A♯]",
+          "n": "46"
+        },
+        {
+          "nome": "Nosso primeiro beijo",
+          "cifra": "i\t[Eb7M|Dm7|Cm c bb|Bb7M]\na\t[Eb7M|Dm7|Cm|Bb7M D|\n|Gm|Gm/F#|Gm/F|C/E|\n|Eb7M!|%|D7!.|%]\nr\t[Gm|Bb/F|Cm|Dm D7|\n|Gm|Bb/F|C/E|'cdcdca#a]\n(C7sus4/F D/F# !! !!!)\np\t[Gm|Gm6|Eb/G|Em7b5/G]\na(atk na frase antes refrao e na entrada,\nr (atks segundo verso !! !! ! !)\np,\nf\t[D7!!| Cm|Gm69]",
+          "n": "47"
+        },
+        {
+          "nome": "Praieiro",
+          "cifra": "i\t(bC♯m|z B)\n[C♯m|G♯m|A|E E B/D♯](B)\n[A B|C♯m (c♯ d♯ e d♯ c♯)]\na\t[C♯m|G♯m|A|E E B/D♯](B)\nb\t[F♯m G♯m|C♯m]\n[F♯m|B|E|F♯m|G♯m|C♯m B]\nr\t[A B|G♯m C♯m|A B | E B/D♯ C♯m B](E)",
+          "n": "48"
+        },
+        {
+          "nome": "Mila",
+          "cifra": "pi\t[A|B|G♯m|C♯m|A](A|B|E|%)\ni\t[E!]\na\t[E|A B]\nb\t[C♯m|G♯m|A|E E B/D♯]\n[C♯m|B/E♭|E|%]\nr\t[A|B|G♯m|C♯m|A](A|B|E|%)",
+          "n": "49"
+        },
+        {
+          "nome": "Mulher de fases/ saideira",
+          "cifra": "\t\t\t\t\ni\t[G! C!D!][Em ]\na\t[G |D C|Em|Am (C)]\nb\t[C| Am| Em| G|C|G|D|\na,|C|G|def♯gabe D!]\nr\t[G |C| G| D D♯°|Em|Am|C|%]\nf\t[G! C!D!]³[Em¹|~\n\n~c\t[Em|%G|Em|Am|C Am|Em|G|C|G|D]\n\nsaidera\n\ni\t[a a ca ca de g!|]\nx\t[Am C |Bm7b5 E7][Am C |Dm E7]\nf\t[egg♯acded♯dc G! G♯![Am G!]³ gaedcg Am!]",
+          "n": "50"
+        },
+        {
+          "nome": "Pipoca e quero chiclete",
+          "cifra": "PIPOCA\ni\t[A|Bm|G A|Bm]\na\t[Bm A|Bm|Em F♯m|Bm]\nb\t[A|Bm|G A (F♯) |Bm] (A)\nr\t[Bm A|Bm|Em F♯m|Bm]\nb'\t\nc\t[Em|Bm|G F♯m|Bm|\n[Em|Bm|G |f♯ g F♯7]\nquero chic\t\ni\t[A G | %%| %%|A]\na\t[E D | A ] B |E]\n[A F♯m|B|E]\nr\t[A|D|E|%]\ns\t[A|D|Bm|E]",
+          "n": "51"
+        },
+        {
+          "nome": "Leva eu super fantástico",
+          "cifra": "i\t[E|B|A]\nr\t[E|A|F♯m|B|E]\na\t[B|C♯m|B|E ef♯ f♯g gg♯g♯|\n|B|C♯m|ab E!] D A/C♯ |B],r\n\nsuper fantástico\ni\t[E7 ee edb ee db]\na\t[E|C♯m c♯ d♯ f |\n|F♯m F♯m7M|B b c♯ d♯|E]\npr\t[A|B|G♯m|C♯m| A| B7!]\nr\t[E|C♯m|G♯m|B]\n[A|B|G♯m|C♯m|A| B7!] (E!)",
+          "n": "52"
+        },
+        {
+          "nome": "Te espero no farol/ colorir papel",
+          "cifra": "te espero\ni\t[G|D|C|D] Em|Bm|C Am|D]\na\t[G|D|C|D]\nb\t[C|D|C|D| Em|Bm|C Am|D|D!]\na,i\n\ncolorir\nx\t[Dm|C7M]",
+          "n": "53"
+        },
+        {
+          "nome": "Celebrar",
+          "cifra": "i\t[D!|E!|F♯m]\n[D E|C♯m F♯m]\n|D A/C♯ B A| E]\na\t[A|E|F♯m|D]\nb\t[F♯m|D|E|C♯m|F♯m|D|E!]\nr\t[D|E|C♯m|F♯m]\nf\t[D E|C♯m F♯m]\n|D A/C♯ B A| E]\n(A!)",
+          "n": "54"
+        },
+        {
+          "nome": "seu brilho sumiu",
+          "cifra": "x\t[B|G♯m|D♯m|C♯]",
+          "n": "55"
+        },
+        {
+          "nome": "Erro gostoso",
+          "cifra": "i\t[E b]\na\t[E|%!|C♯m|%|A|%|E|\n|F♯m E/G♯|A a♯|%]\nb\t[E|E f|C♯m|%!|\n|A a♯|F♯m|B|%!] E A]",
+          "n": "56"
+        },
+        {
+          "nome": "Pot pourri to valendo nada",
+          "cifra": "",
+          "n": "57"
+        },
+        {
+          "nome": "Tchê tcherere tchê tchê / gatinha assanhada / zuar e beber",
+          "cifra": "",
+          "n": "58"
+        },
+        {
+          "nome": "Ana Júlia",
+          "cifra": "i\t[E|C♯m]\na\t[E|C♯m|G♯m|A B]\nb\t[C♯m|G♯m|A|B]\nr\t[E|A|B%]\ns\t[E|A|B%]\n[C♯m|G♯m|A|E](B)\npr\t[C♯m|G♯m|A|E](B)",
+          "n": "59"
+        },
+        {
+          "nome": "Do seu lado",
+          "cifra": "a\t[D |%|Am|%|C|G|D|%]\nb\t[C |G|D|%]\n[Em|G|D|%]\nr\t=a\nf\t(G D/F♯ C|D!)",
+          "n": "60"
+        },
+        {
+          "nome": "Será legião",
+          "cifra": "a\t[C|G|Am|F]\n|Am|Em|F|G]\np\t(CFG)\nr\t[G%|Dm%]Am|F|G],p\nf\t[C%|G/B%|Gm/B♭%|Dm%]\n[GF]",
+          "n": "61"
+        },
+        {
+          "nome": "Vira vira",
+          "cifra": "[E B] A B E [B|E]",
+          "n": "62"
+        },
+        {
+          "nome": "Pelados em santos",
+          "cifra": "a\t[D|Bm|G|A]\nb\t[ag F♯%|G%]",
+          "n": "63"
+        },
+        {
+          "nome": "Valeu a pena",
+          "cifra": "a\t[B♭m % | A♭%]\nr\t[D♭ B♭m| A♭%]",
+          "n": "64"
+        }
+      ]
+    }
+  ]
+}
